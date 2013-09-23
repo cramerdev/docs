@@ -1,0 +1,39 @@
+header {
+  background: url(../images/pattern.png) #73CEDA;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+header .top {
+  background: #73CEDA;
+  margin: 0 0 20px 0;
+  padding: 10px 0 10px 0;
+  border-bottom: solid 1px #3BBACB;
+}
+
+header .top a, header .top a:visited {
+  font-weight: 300;
+  font-size: 1.3em;
+  color: #fff;
+}
+
+header .btn {
+  border-color: #fff;
+  background: none;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+header .btn.active {
+  background: #fff;
+  border-color: #fff;
+  color: #73CEDA;
+}
+
+header .btn:hover {
+  background: #fff;
+  color: #73CEDA;
+  border: none;
+}
+
+.main a, .main a:visited { color: #73CEDA; }

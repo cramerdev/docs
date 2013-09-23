@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{page.title}}</title>
+
+    <link rel="stylesheet" href="/css/vendor/bootstrap.css">
+    <link rel="stylesheet" href="/css/syntax.css">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body>
+    <header>
+      <div class="top">
+        <div class="container">
+          <a href="/"><img src="../images/logo.svg"></a>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="btn-group btn-group-justified">
+              {% for post in site.posts %}
+                <a href="{{post.url}}" class="btn btn-default {% if page.url == post.url %}active{% endif %}">{{post.title}}</a>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container main">
+      <div class="row">
+        <div class="col-md-12">
+          {{content}}
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
