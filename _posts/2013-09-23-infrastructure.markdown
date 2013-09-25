@@ -3,9 +3,6 @@ layout: page
 title: Infrastructure
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<span class="highlight-engineers">Engineers to scope this out and drive the docs. The goal is to arrive at a consensus for the tools we want to set as the "default" toolbox for accomplishing things like account management, admin interfaces, email delivery, hosting, monitoring, etc. Some clear sections i see are "server side languages and frameworks", "client side languages and frameworks", and maybe "scaling and infrastructure" but ultimately it's up to you!
+While I agree there will need to be some deviations from this depending on the specific needs of a project, adopting a standard set of tools will allow us more flexibility to jumping from project to projcet, and will make us much more efficient in collaborating together. 
+</span>

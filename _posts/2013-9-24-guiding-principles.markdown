@@ -2,6 +2,7 @@
 layout: page
 title: Guiding Principles
 ---
+<span class="highlight-designers">Josh Cramer needs to review this and make final tweaks before we say it's "done done"</span>  
 
 The vision for Cramer Dev and the core values that we adopt as a company provide us the framework and latitude to act autonomously in our quest to deliver exceptional value to our clients and the people who use our products. We have a clearly defined purpose for doing what we do, and we have core values that outline the attitude through which we work towards accomplishing the vision. 
 
