@@ -1,5 +1,5 @@
+/** Setting Header Styles **/
 header {
-  background: url(../images/pattern.png) #73CEDA;
   color: #fff;
   padding-bottom: 20px;
 }
@@ -18,22 +18,38 @@ header .top a, header .top a:visited {
 }
 
 header .btn {
-  border-color: #fff;
+  border-color: #73CEDA;
   background: none;
-  color: #fff;
+  color: #73CEDA;
   text-transform: capitalize;
 }
 
 header .btn.active {
-  background: #fff;
-  border-color: #fff;
-  color: #73CEDA;
+  background: #73CEDA;
+  border-color: #73CEDA;
+  color: #fff;
 }
 
 header .btn:hover {
   background: #fff;
   color: #73CEDA;
-  border: none;
+  border-color: #73CEDA;
+  text-decoration: underline;
 }
 
 .main a, .main a:visited { color: #73CEDA; }
+
+/** Setting Global Fonts For Paragraphs & Headers **/
+p, h1, h2, h3, h4, h5, h6 {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: #525151;
+	font-weight: bold;
+}
+
+/** Setting Content Styles **/
+p {
+	font-size: 1.2em;
+	letter-spacing: normal;
+	line-height: 32px;
+	font-weight: normal;
+}

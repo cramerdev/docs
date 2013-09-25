@@ -3,11 +3,11 @@ layout: page
 title: Overview
 tags: main
 ---
-The internet can be a very large and scary place. It is the world's largest repository of information after all. Fear not…we are here. We've created this field guide to help give context to why we do what we do, and what we believe is the most efficient way of doing it. We've spent years learning the hard way so you don't have to. 
+The internet can be a very large and scary place. It is the world's largest repository of information after all. Fear not, we are here. We've created this field guide to help give context to why we do what we do, and what we believe is the most efficient way of doing it. We've spent a lot of time learning the hard way so you don't have to. 
 
-Our hope is that by following the guidelines outlined here, you can spend less time in the weeds and more time accomplishing the  important things in life like making the world a better place by creating kick-ass products that solve tangible problems and deliver true value to the people who use them. 
+By following the guidelines outlined here, you can spend less time in the weeds and more time accomplishing the  important things in life. Maybe making the world a better place by creating kick-ass products that solve tangible problems and deliver true value to the people who use them? It's just an idea. 
 
-#### Contributing To The Field Guide
-This is a living collection of guidelines derived from the consensus of our team as a whole. It's what we like to call our adopted "best practices." Because of this, we all share equal ownership in both the quality of guidelines and practicing them in our work each and every day. 
+## Contributing To The Field Guide
+This is a living collection of guidelines derived from the consensus of our team as a whole. It's what we like to call our adopted "best practices." Because of this fact, we all share equal ownership in both the quality of guidelines and practicing them in our work each and every day. 
 
-If you have a suggestion for improving, adding to, or changing these guidelines, then please create a new branch off the repo, make your changes, and open a pull request for the team to review. If everyone is happy with the changes, we'll officially introduce them into our guidelines and adopt them in our daily workflow. 
+If you have a suggestion for improving, adding to, or changing these guidelines, then please create a new branch off the repo, make your changes, and open a pull request for the team to review. If everyone is happy with the changes, we'll officially introduce them into our guidelines and adopt them in our daily workflow.
