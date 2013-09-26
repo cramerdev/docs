@@ -4,12 +4,7 @@ title: Workflow
 tags: main
 ---
 
-Here at Cramer Dev, we whole heartedly believe that the most effective way to build interactive products hinges on two key principles:
-
-1. *Be Agile* - Business needs are constantly evolving. By structuring our work deliverables in smaller chunks and shipping products more often, we have the opportunity to both deliver value to the market more quickly and also to learn and validate our assumptions sooner rather than later. If you haven't read it yet, check out the [Manifesto For Agile Software Development](http://agilemanifesto.org/) 
-2. *Run Lean* - Make assumptions, create hypothesis, develop tests, and obtain validated learning about what the market really wants. This is where we get to put on our mad scientist hat and use empirical data to ensure we are building something with the right product to market fit. If you're unfamiliar with the concept of "lean development," you can check out this [great resource from Ash Maurya](http://practicetrumpstheory.com/blog/)
-
-We've implemented these principles into our daily workflow in the various disciplines we practice from how we manage projects to how we develop our applications. In the following sections, you can learn all of the details by reading the In Depth portions or grab the key takeaways by glancing at the Highlights. 
+In the following sections, you can learn all of the details by reading the In Depth portions or grab the key takeaways by glancing at the Highlights. 
 
 ## Managing Projects
 On a high level, our project management process is comprised of a series of recurring events - release planning meetings, iteration planning meetings, stand-ups, demos, and retros.
@@ -79,7 +74,7 @@ Beyond that, project managers use the velocity to extrapolate out budgets and re
 
 This is definitely not an exact science, but it is a very effective way of using past historical performance to provide a better picture for predicting the future. It's also a great tool to understand where we are spending time as a team. Since Feature stories are the only type of stories that get estimations (read the Pivotal Tracker guide if you haven't yet), a team's velocity can be diminished by an increase in the number of defects or chores that need to be accomplished each iteration. 
 
-At its core, story points are not just for estimation, but represent the amount of time spent by the team working on delivering new value for the end users of the products we build. 
+At its core, story points are not just for estimation, but represent the amount of time spent by the team working on delivering new value for the end users of the products we build.
 
 ### Release Planning Meetings (Monthly or As Needed)
 **Highlights**
@@ -93,12 +88,46 @@ This is where we begin taking rough business requirements and turning them into 
 At this point, stories and requirements might be a little bit rough in terms of complete scope and requirements, but they are usually sufficient to provide an initial story point estimate. There are still unknowns, but that is OK. Release planning allows us to start giving shape to turning ideas into tangible work output.  
 
 ### Iteration Planning Meetings (Weekly)
+**Highlights**
+> Recurring weekly meeting where the team reviews business objectives specified by the stakeholders and makes commitments to deliverables for the week.  Detailed requirements are discussed and story point estimates are updated where applicable.  The final priorities and queue order for the tasks is set by the stakeholders, based on both business objectives and the teams feedback. 
 
-### Demos (Weekly)
+**In Depth**  
+Iteration planning happens once a week on the same day, every week. It represents the start of a new cycle and provides the opportunity for the team to re-align development priorities with the current business objectives. The bulk of the call is spent taking higher level stories and discussing them in as much detail as possible with the goal of removing any unknowns or potential blockers before the story comes up in the work queue that week. 
 
-### Retros (Bi-Weekly)
+Most stories in the backlog should have a story point estimate by now. During the process of reviewing the requirements and deliverables for each target task for the iteration, the team restimates the story if needed based on new information that has come to light since the last time it was estimated. Usually more is known about how to solve the problem, or the business needs have changed in the several weeks the story has been queued in the backlog.  
+
+Once the ideal goals for the week have been outlined, the team decides what they can and cannot commit to delivering for the given iteration. It's easy to take this part of the planning process lightly, but making commitments is not a trivial matter in our opinion. We define commitments as, "the state or quality of being dedicated to a cause, activity, etc." The act of the team making commitments to deliver features symbolizes their willingness to dedicate themselves to delivering on those stories within the normal working parameters each team member has. This sets reasonable expectations for what will be finished and by when. The important thing to note here, only the team has the power to make specific commitments. They are free to decline if they feel it's unreasonable. 
+
+At that point, we go back to the drawing board and break down the work into even smaller chunks until it feels achievable to complete and ship within the given time frame. It's also OK to fail on meeting commitments. It's NOT OK to fail on meeting commitments and not communicate your impending fate until the day things are supposed to be done. The main outcome of following this process every week is accurately managing expectations of every individual who has a stake in the product - from clients to investors to engineers. 
+
+It's also important to note that, as much as possible, once commitments are made, stakeholders do not change the priorities for the current iteration. Only hotfixes and immediate or critical threats to the success of the business are allowed to take precedence over the previously agreed upon priorities for any given iteration. This safe guards and prevents the team from being jerked around; providing increased stability and focus to delivering their stories to the best of their ability throughout the week. 
 
 ### Stand-ups (Daily)
+**Highlights**
+> Daily get together with the team to give status updates on work completed the previous day, tasks that will be worked on for the current day, and blockers preventing individuals from completing their stories. Stakeholders and product owners do not actively participate, but act as representatives of the end users should the team have questions on desired behavior or functionality. 
+
+**In Depth**  
+Maintaing the expectations throughout the week on target deliverables is where the importance of daily standups come in. Depending on the team size, standups should last anywhere from 5 to 15 minutes. The basic structure of a standup is each team member reporting:
+1. What they worked on yesterday. 
+2. What they are going to work on today. 
+3. What blockers they have (if any) in completing their stories; which ultimately puts delivering on their commitments at risk. 
+
+Standups got their name because the idea is to literally stay standing the entire meeting. This forces everyone to be succinct, to the point, and get their reports in quickly so we can all sit back down and return to being productive. Everyone hates meetings, so the shorter, the better. If blockers are identified, we wait on discussing them until the end of the standup. We grab whoever needs to be involved and hold a breakout on the specific blockers to figure out what we can do immediately to remove them, thus allowing the team to return to operating at the most efficient levels possible. 
+
+If it's identified on the second or third day of the iteration that the initial commitments made during the weekly planning session are no longer achieveable, the entire team needs to break out on it immediately after standup. This usually happens if things that were previously unknown before a story was started rear their ugly head in the middle of trying to implement a rather seemingly straightforward task; or if a hotfix gets pushed through the backlog into the current iteration. It's the entire teams responsibility to communicate effectively about why the commitment won't be delivered; as well as discussing alternatives for completing the story such that it can still be done during the iteration. This usually means making hard decisions, but again this is where it's the entire teams job to talk through the pros and cons, and to provide the stakeholders and clients with as much information as possible to make the best decision they can.  
+
+We've found that it's best if discussion during standups is limited specificly to team members with assigned stories and the facilitator of the standup. It's easy for a client or product owner to want to weigh in, but uninvited interference from stakeholders and clients during standups usually turns them from a 5 minute meeting to a 45 minute discussion where an entire team just lost 13% of their day to a meeting. If clients or stakeholders need to discuss requirements, it's best to request a breakout with the project or product manager assigned to the team. And even more so, if these mid-iteration breakout meetings are frequent, it's usually a sign of process problems up the stream either during release planning, backlog grooming, or iteration planning. 
+
+### Demos (Weekly)
+**Highlights**
+> Show of a working component of the product that represents the stories (and value) the team delivered the previous week. 
+
+**In Depth**  
+We usually like to hold demos right before we begin iteration planning for the week. The purpose of the demo is to visibly display the work completed by the team during the previous iteration. If everything goes well, the demo happens on a staging environment or somewhere that it's a command or two away from being shipped and deployed to production. Doing weekly demos provide a powerful collaboration and feedback mechanism for stakeholders to be intimately involved in the iterative growth of their product over the development lifecycle. This empowers stakeholders to make informed decisions on priorities for the upcoming iteration, as well as a way to see tangible progress towards their business goals. 
+
+Doing demos and shipping functionality each week also grants the ability to immediately begin testing and validating features before the entire product is "done done." Getting users involved early and shipping often is the best way to ensure that the vision of the product aligns with the actual need it's trying to address within the given market. 
+
+### Retros (Bi-Weekly)
 
 ## Managing The Creative Process
 <span class="highlight-designers">For the designers to scope out and drive. Feel free to grab Gabe if you want to collaborate. This should highlight the design and creative process from a high level down to specific activities and milestones you want our process to include. 
