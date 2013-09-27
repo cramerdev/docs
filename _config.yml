@@ -1,3 +1,4 @@
 name: Docs
 pygments: true
 permalink: /:title
+markdown: redcarpet
