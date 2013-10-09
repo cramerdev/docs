@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Overview
+title: Process
 tags: main
 ---
 The internet can be a very large and scary place. It is the world's largest repository of information after all. Fear not, we are here. We've created this field guide to help give context to why we do what we do, and what we believe is the most efficient way of doing it. We've spent a lot of time learning the hard way so you don't have to. 
