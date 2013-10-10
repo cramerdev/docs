@@ -2,6 +2,16 @@
 layout: default
 ---
 
-{% for post in site.posts %}
-  <h1><a href="{{post.url}}">{{post.title}}</a></h1>
-{% endfor %}
+<div class="row">
+
+  <!-- main content -->
+  <div class="col-md-8 excerpts">
+    <p>Need a paragraph here to explain the docs in general - below are excerpts.</p>
+    {% for post in site.posts %}
+      <div>
+        <h3><a href="{{post.url}}">{{post.title}}</a></h3>
+        <p>{{post.excerpt}} <em><a href="{{post.url}}">Learn more about {{post.title}}</a></em></p>
+      </div>
+    {% endfor %} 
+  </div>
+</div>

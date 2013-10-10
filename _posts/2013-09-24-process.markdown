@@ -13,24 +13,23 @@ This is a living collection of guidelines derived from the consensus of our team
 
 If you have a suggestion for improving, adding to, or changing these guidelines, then please create a new branch off the repo, make your changes, and open a pull request for the team to review. If everyone is happy with the changes, we'll officially introduce them into our guidelines and adopt them in our daily workflow.
 
-## What's Included
-###	Our Process
+## Our Process
 Plan > Setup > Build > Launch > Analyze
 
-#### 1. Plan
+### 1. Plan
 
-##### Discovery
+#### Discovery
 - Identify the problem
 
-##### Solution
+#### Solution
 - Propose Solutions
 - Select Optimal Solution
 - Define Deliverables (MVP, etc.)
 
-##### Measurement
+#### Measurement
 - Identify KPIs
 
-##### Roles
+#### Roles
 - Project Management
 - Product Management
 - Design
@@ -38,13 +37,13 @@ Plan > Setup > Build > Launch > Analyze
 - Sys Ops
 - QA
 
-#### 2. Setup
+### 2. Setup
 
-##### Discipline
+#### Discipline
 - Agile
 - Lean Startup
 
-##### Platforms
+#### Platforms
 - Web sites
 - Web apps
 - Mobile apps
@@ -53,51 +52,51 @@ Plan > Setup > Build > Launch > Analyze
 - Databases
 - Hosting
 
-##### Development Environment
+#### Development Environment
 - Apps
 - Project Management
 - Version Control
 - Testing
 - Continuous Integration
 
-##### Production Environment
+#### Production Environment
 - Hosting
 - Domain Names and SSL
 - Performance
 - Error Tracking
 
-#### 3. Build
+### 3. Build
 Agile process
 
-##### Feedback
+#### Feedback
 - Discuss
 - Sketch
 - Prototyping
 
-##### Iterate
+#### Iterate
 - Pace / Velocity
 - Daily Standups
 - Iteration Planning
 - Weekly Retros
 
-##### Design Process
+#### Design Process
 - UX (sketch, wireframe, prototype)
 - Visual (style tiles, comps)
 - User Testing
 
-##### Building Blocks
+#### Building Blocks
 - API
 - Web Client
 - Mobile app
 - Brochure site
 - Common Gems (admin, error handling, payment, etc.)
 
-#### 4. Launch
+### 4. Launch
 - Making it 'live'
 - Monitoring
 - Marketing
 
-#### 5. Analyze
+### 5. Analyze
 - Review KPIs
 - Refine
 - Repeat
