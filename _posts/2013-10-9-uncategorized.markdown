@@ -15,7 +15,13 @@ Uptime is probably THE most critical performance indicator a server based produc
 - A significant amount of developer resources were required to address the issue
 
 
-### Monitoring Critical Incidents
+### Monitoring Critical Incidents 
+#### Configuring Push Notification Alerts
+1. Download the iOS App.
+2. Login to New Relic with user account credentials.
+3. In your desktop browser logged in as an admin, go to New Relic > Applications > :AppName > Settings > Alerting Thresholds and make sure "Receive iOS Push Notifactions" is active. Sometimes it can take several minutes for the server to propogate the fact that there are now New Relic users on the iOS App. Until this happens, the push notification options won't be visible in the New Relic Interface. 
+
+#### Configuring SMS Alerts
 1. Setup New Relic if you haven't already. 
 2. Create a Cramer Dev Google Group (:product-alerts@cramerdev.com)
 3. Add mobile phone numbers as email addresses to the group. 
