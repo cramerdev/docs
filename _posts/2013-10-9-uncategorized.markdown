@@ -17,8 +17,9 @@ Uptime is probably THE most critical performance indicator a server based produc
 
 ### Monitoring Critical Incidents 
 #### Configuring Push Notification Alerts
-1. Download the iOS App.
+1. Download the New Relic iOS App.
 2. Login to New Relic with user account credentials.
+3. If the app is hosted on Heroku, open the slide out menu, select your email address, and select the app from the drop down you want to view. 
 3. In your desktop browser logged in as an admin, go to New Relic > Applications > :AppName > Settings > Alerting Thresholds and make sure "Receive iOS Push Notifactions" is active. Sometimes it can take several minutes for the server to propogate the fact that there are now New Relic users on the iOS App. Until this happens, the push notification options won't be visible in the New Relic Interface. 
 
 #### Configuring SMS Alerts
