@@ -27,8 +27,12 @@ h3 {
   font-weight: 700;
 }
 
-body.full h2, body.full p {
+body.full p {
   color: #fcfbf7;
+}
+
+body.full h2 {
+  color: #8cc2d9;
 }
 
 header {
@@ -200,15 +204,30 @@ body.full {
   text-align: center;
   width: 25%;
 }
+.features ul li a {
+  border-radius: 3px;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+.features ul li a:hover {
+  background-color: #233140;
+  background-color: rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
 
 .features span[class*="icon-"] {
   display: none;
 }
 
 .illy {
-  display: block;
-  height: 210px;
-  width: 300px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
 }
 
 .illy-vision {

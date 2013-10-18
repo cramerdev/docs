@@ -96,6 +96,21 @@ body.full {
   margin: 0;
   text-align: center;
   width: 25%;
+  
+  a {
+    border-radius: 3px;  
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    
+    &:hover {
+      background-color: darken($blue,5);
+      background-color: rgba(0, 0, 0, .10);
+      text-decoration: none;
+      
+      @include transition(all .2s ease-in);
+    }
+  }
 }
 
 .features span[class*="icon-"] {
@@ -103,9 +118,9 @@ body.full {
 }
 
 .illy {
-  display: block;
-  height: 210px;
-  width: 300px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
 }
 
 .illy-vision {
