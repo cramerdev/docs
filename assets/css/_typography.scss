@@ -1,0 +1,58 @@
+body {
+  color: $body-text;
+  font-family: 'Open Sans', sans-serif; /* 300,400italic,400,700 */
+  font-size: 16px;
+  font-weight: 400;  
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #444;
+  font-family: 'Asap', sans-serif; /* 400italic,400,700 */
+  font-weight: 700;  
+}
+
+h1 {
+  color: $blue-light;
+  font-family: 'Nothing You Could Do', serif; /* 400 */
+  font-size: 4.2em;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+body.full h2, body.full p {
+  color: $white;
+} 
+
+header {
+  color: $white;
+}
+
+footer {
+  color: lighten($gray,10%);
+  font-size: .85em;
+}
+
+p {
+  font-size: 1.2em;
+  letter-spacing: normal;
+  line-height: 1.6em;
+  margin-bottom: 1.4em;
+}
+
+blockquote p {
+  line-height: 1.6em;
+}
+
+.toc li {
+  border-left: 1px solid darken($white,10);
+  font-size: .80em !important;
+  font-weight: normal;
+  padding-left: 1em;
+
+  &:first-child {
+    border-left: none;
+    padding-left: 0;
+  }
+}

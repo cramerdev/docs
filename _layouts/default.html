@@ -1,43 +1,56 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>{{page.title}}</title>
+{% include header.html %}
 
-    <link rel="stylesheet" href="/css/vendor/bootstrap.css">
-    <link rel="stylesheet" href="/css/syntax.css">
-    <link rel="stylesheet" href="/css/main.css">
-    <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Sintony:400,700' rel='stylesheet' type='text/css'>
-
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-    <script type="text/javascript" src="/js/jquery.toc.min.js"></script>
-    <script type="text/javascript" src="/js/main.js"></script>
-  </head>
-  <body>
-    <header>
-      <div class="top">
-        <div class="container">
-          <a href="/"><img src="/images/logo.svg"></a>
+<body>
+  
+  <div class="row">
+    <div class="col-md-4 head-vertical">
+      <header>
+        <div class="top">
+          <div class="container">
+            <a href="/"><img src="/assets/images/logo.svg"></a>
+          </div>
         </div>
-      </div>
-
+      </header>
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <div class="btn-group btn-group-justified">
-              {% for post in site.posts %}
-                <a href="{{post.url}}" class="btn btn-default {% if page.url == post.url %}active{% endif %}">{{post.title}}</a>
-              {% endfor %}
-            </div>
+            <ul class="nav nav-pills nav-stacked">
+              {% include core-nav.html %}
+            </ul>
           </div>
         </div>
       </div>
-    </header>
-
-    <div class="container main">    
+    </div>
+    
+    <div class="col-md-7 main">   
+      <div class="row">
+        <div class="col-md-12">
+          <div class="toc"></div>
+        </div>
+      </div>
+    
       <!-- from index.html -->    
       {{content}}
+      
+      {% include footer.html %}      
     </div>
+    
+    <div class="col-md-1 index">
+      <div class="index">
+        <ul>
+          <li><h3>Index</h3></li>
+        	<li><a href="#">keyword</a></li>
+        	<li><a href="#">keyword</a></li>
+        	<li><a href="#">keyword</a></li>
+        	<li><a href="#">keyword</a></li>
+        	<li><a href="#">keyword</a></li>
+        	<li><a href="#">keyword</a></li>
+        </ul>
+      </div>        
+    </div>
+    
+  </div>
+  
+</body>
 
-  </body>
-</html>
+{% include closing.html %}

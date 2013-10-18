@@ -1,0 +1,163 @@
+
+/** Global Fonts For Paragraphs & Headers **/
+
+html, body {
+  height: 100%;
+}
+
+/** Layout **/
+
+body > .row {
+  margin-right: 0;
+  position: relative;
+}
+
+.head-vertical {
+  background-color: $primary;
+  position: relative;
+}
+
+.main {
+  padding: 2em;
+  position: relative;  
+
+  p {
+    max-width: 750px;
+  }
+  
+}
+
+.index {
+  background-color: darken($white,2%);
+  min-height: 100%;
+
+  ul {
+    font-size: .85em;
+    margin: 0;
+    padding: 5em 1em 1em;
+  }
+  li {
+    list-style: none;
+    margin-bottom: .8em;
+    &:first-child {
+      margin-bottom: 1.4em;
+    }
+  }
+  
+  a, a:visited {
+    color: lighten($body-text,50);    
+  }
+  a:hover, a:focus {
+    color: $body-text;        
+    text-decoration: none;
+  }
+}
+
+@media (min-width: 991px) {
+
+  body > .row, .head-vertical {
+    height: 100%;
+  }
+
+  .head-vertical {
+    position: fixed;
+  }
+  
+  .main {
+    margin-left: 33.33333333333333%;
+  }
+
+}
+
+/** Full Width Body Styles **/
+
+body.full {
+  background-color: $primary;
+  color: #0D1F26;
+}
+
+.banner {
+  margin-bottom: 4em;
+}
+
+/* :FEATURE ITEMS */
+
+.features ul {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.features ul li {
+  display: inline-block;
+  float: left;
+  margin: 0;
+  text-align: center;
+  width: 25%;
+}
+
+/** Header Styles **/
+
+header {
+  padding-bottom: 1em;
+}
+
+header .top {
+  background-color: $primary;
+  margin: 0 0 20px 0;
+  padding: 2em 0;
+}
+
+/** Footer Styles **/
+
+footer {
+  border-top: 1px solid lighten($gray,10%);
+  margin-top: 4em;
+  padding: 1.4em 0;
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    
+    li {
+      display: inline-block;
+      float: left;
+      margin-right: 2em;
+    }
+  }
+}
+
+/** Content Styles **/
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  background-color: lighten($primary,10%);
+}
+
+.head-vertical span.illy {
+  display: none;
+}
+
+/** Content Styles **/
+
+a, a:visited { color: $blue-light; }
+
+.toc ul {
+  margin: 10px 0 0 0;
+  padding: 0;
+  list-style: none;
+  
+  li {
+    display: inline-block;
+    float: left;
+    margin-bottom: 0.4em;
+    margin-right: 1em;
+  }
+}
+
+.toc a {
+  display: block;
+}
+
+.excerpts > div {
+  margin-bottom: 3em;
+}

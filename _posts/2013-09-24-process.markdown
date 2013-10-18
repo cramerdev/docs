@@ -1,103 +1,54 @@
 ---
 layout: page
-title: Process
+title: Framework
 tags: main
 ---
+
+## Getting Started
 The internet can be a very large and scary place. It is the world's largest repository of information after all. Fear not, we are here. We've created this field guide to help give context to why we do what we do, and what we believe is the most efficient way of doing it. We've spent a lot of time learning the hard way so you don't have to. 
 
 By following the guidelines outlined here, you can spend less time in the weeds and more time accomplishing the  important things in life. Maybe making the world a better place by creating kick-ass products that solve tangible problems and deliver true value to the people who use them? It's just an idea. 
 
-## Contributing To The Field Guide
+## 1. Plan
 
-This is a living collection of guidelines derived from the consensus of our team as a whole. It's what we like to call our adopted "best practices." Because of this fact, we all share equal ownership in both the quality of guidelines and practicing them in our work each and every day. 
+### Customer Discovery
 
-If you have a suggestion for improving, adding to, or changing these guidelines, then please create a new branch off the repo, make your changes, and open a pull request for the team to review. If everyone is happy with the changes, we'll officially introduce them into our guidelines and adopt them in our daily workflow.
+### Understanding Business Goals
 
-## Our Process
-Plan > Setup > Build > Launch > Analyze
+### Designing the Solution
 
-### 1. Plan
+### Building the Team
 
-#### Discovery
-- Identify the problem
+### Defining the Workflow
 
-#### Solution
-- Propose Solutions
-- Select Optimal Solution
-- Define Deliverables (MVP, etc.)
+## 2. Setup
 
-#### Measurement
-- Identify KPIs
+### Prototyping
 
-#### Roles
-- Project Management
-- Product Management
-- Design
-- Development
-- Sys Ops
-- QA
+### App Framework Setup
 
-### 2. Setup
+### Infrastructure Setup
 
-#### Discipline
-- Agile
-- Lean Startup
+### Product Roadmap
 
-#### Platforms
-- Web sites
-- Web apps
-- Mobile apps
-- Languages
-- Frameworks
-- Databases
-- Hosting
+## 3. Build
 
-#### Development Environment
-- Apps
-- Project Management
-- Version Control
-- Testing
-- Continuous Integration
+### Visual Design
 
-#### Production Environment
-- Hosting
-- Domain Names and SSL
-- Performance
-- Error Tracking
+### Front-end
 
-### 3. Build
-Agile process
+### Development
 
-#### Feedback
-- Discuss
-- Sketch
-- Prototyping
+### Weekly Demo & Feedback
 
-#### Iterate
-- Pace / Velocity
-- Daily Standups
-- Iteration Planning
-- Weekly Retros
+## 4. Launch
 
-#### Design Process
-- UX (sketch, wireframe, prototype)
-- Visual (style tiles, comps)
-- User Testing
+### Production Checklist
 
-#### Building Blocks
-- API
-- Web Client
-- Mobile app
-- Brochure site
-- Common Gems (admin, error handling, payment, etc.)
+## 5. Analyze
 
-### 4. Launch
-- Making it 'live'
-- Monitoring
-- Marketing
+### Dashboarding
 
-### 5. Analyze
-- Review KPIs
-- Refine
-- Repeat
+### Performance Monitoring
 
+### Optimization

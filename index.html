@@ -1,17 +1,23 @@
 ---
-layout: default
+layout: front
+title: Harbor - Shipping Department
 ---
 
 <div class="row">
 
   <!-- main content -->
-  <div class="col-md-8 excerpts">
-    <p>Need a paragraph here to explain the docs in general - below are excerpts.</p>
-    {% for post in site.posts %}
-      <div>
-        <h3><a href="{{post.url}}">{{post.title}}</a></h3>
-        <p>{{post.excerpt}} <em><a href="{{post.url}}">Learn more about {{post.title}}</a></em></p>
-      </div>
-    {% endfor %} 
+  <div class="col-md-12 banner">
+  
+    <h1>How We Ship</h1>
+    <p>This is a living collection of guidelines derived from the consensus of our team as a whole. It's what we like to call our adopted "best practices." Each team member practices and shares ownership in the quality of these guidelines - each and every day.</p>
+
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 features">
+    <ul>
+      {% include core-nav.html %}
+    </ul>
   </div>
 </div>
