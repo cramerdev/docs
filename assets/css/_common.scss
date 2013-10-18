@@ -96,10 +96,39 @@ body.full {
   margin: 0;
   text-align: center;
   width: 25%;
+  
+  a {
+    border-radius: 3px;  
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    
+    &:hover {
+      background-color: darken($blue,5);
+      background-color: rgba(0, 0, 0, .10);
+      text-decoration: none;
+      
+      @include transition(all .2s ease-in);
+    }
+  }
 }
 
 .features span[class*="icon-"] {
   display: none;
+}
+
+.illy {
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  
+  .main & {
+    width: 100%;
+  }
+}
+
+.illy-vision {
+  background: url(../images/illo-principles.png) no-repeat center top;
 }
 
 /** Header Styles **/
@@ -135,11 +164,22 @@ footer {
 /** Content Styles **/
 .nav > li > a:hover,
 .nav > li > a:focus {
-  background-color: lighten($primary,10%);
+  background-color: lighten($primary,1%);
 
   [class*="icon-"] {
     color: #7CAABF;
   }
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  background-color: darken($primary,4%);  
+}
+
+.head-vertical h2 {
+  color: $blue-light;
+  display: inline;
+  font-size: 1em;
+  font-weight: 300;
 }
 
 .head-vertical span.illy {
@@ -149,6 +189,16 @@ footer {
 /** Content Styles **/
 
 a, a:visited { color: $blue-light; }
+
+.page-head {
+  margin-top: -2em;
+  text-align: center;
+}
+
+.toc {
+  display: inline-block;
+  margin-bottom: 2em;
+}
 
 .toc ul {
   margin: 10px 0 0 0;

@@ -1,5 +1,5 @@
 <!-- core navigation -->
-<li><a href="{% post_url 2013-09-25-principles %}"><span class="illy">illustration</span><span class="icon-vision"></span>Vision</a></li>
-<li><a href="{% post_url 2013-09-24-process %}"><span class="illy">illustration</span><span class="icon-workflow"></span>Workflow</a></li>
-<li><a href="{% post_url 2013-09-22-development %}"><span class="illy">illustration</span><span class="icon-development"></span>Development</a></li>            
-<li><a href="{% post_url 2013-09-21-design %}"><span class="illy">illustration</span><span class="icon-design"></span>Design</a></li>
+<li {% if page.title == 'Vision' %} class="active" {% endif %} ><a href="{% post_url 2013-09-25-principles %}"><span class="illy illy-vision"></span><span class="icon-vision"></span><h2>Vision</h2></a></li>
+<li><a href="{% post_url 2013-09-24-process %}"><span class="illy illy-vision"></span><span class="icon-workflow"></span><h2>Workflow</h2></a></li>
+<li><a href="{% post_url 2013-09-22-development %}"><span class="illy illy-vision"></span><span class="icon-development"></span><h2>Development</h2></a></li>            
+<li><a href="{% post_url 2013-09-21-design %}"><span class="illy illy-vision"></span><span class="icon-design"></span><h2>Design</h2></a></li>

@@ -2,7 +2,7 @@
 /* Initialize */
 /* Colors */
 body {
-  color: #424242;
+  color: #0d1f26;
   font-family: 'Open Sans', sans-serif;
   /* 300,400italic,400,700 */
   font-size: 16px;
@@ -27,12 +27,20 @@ h3 {
   font-weight: 700;
 }
 
-body.full h2, body.full p {
+body.full p {
   color: #fcfbf7;
+}
+
+body.full h2 {
+  color: #8cc2d9;
 }
 
 header {
   color: #fcfbf7;
+}
+
+.nav li {
+  font-size: 1.2em;
 }
 
 footer {
@@ -153,10 +161,10 @@ body > .row {
   margin-bottom: 1.4em;
 }
 .index a, .index a:visited {
-  color: #c2c2c2;
+  color: #67afcb;
 }
 .index a:hover, .index a:focus {
-  color: #424242;
+  color: #0d1f26;
   text-decoration: none;
 }
 
@@ -200,9 +208,37 @@ body.full {
   text-align: center;
   width: 25%;
 }
+.features ul li a {
+  border-radius: 3px;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+.features ul li a:hover {
+  background-color: #233140;
+  background-color: rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
 
 .features span[class*="icon-"] {
   display: none;
+}
+
+.illy {
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+}
+.main .illy {
+  width: 100%;
+}
+
+.illy-vision {
+  background: url(../images/illo-principles.png) no-repeat center top;
 }
 
 /** Header Styles **/
@@ -234,11 +270,22 @@ footer ul li {
 /** Content Styles **/
 .nav > li > a:hover,
 .nav > li > a:focus {
-  background-color: #3e5771;
+  background-color: #2e4153;
 }
 .nav > li > a:hover [class*="icon-"],
 .nav > li > a:focus [class*="icon-"] {
   color: #7CAABF;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  background-color: #253443;
+}
+
+.head-vertical h2 {
+  color: #8cc2d9;
+  display: inline;
+  font-size: 1em;
+  font-weight: 300;
 }
 
 .head-vertical span.illy {
@@ -248,6 +295,16 @@ footer ul li {
 /** Content Styles **/
 a, a:visited {
   color: #8cc2d9;
+}
+
+.page-head {
+  margin-top: -2em;
+  text-align: center;
+}
+
+.toc {
+  display: inline-block;
+  margin-bottom: 2em;
 }
 
 .toc ul {

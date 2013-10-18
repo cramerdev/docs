@@ -21,12 +21,20 @@ h3 {
   font-weight: 700;
 }
 
-body.full h2, body.full p {
+body.full p {
   color: $white;
+} 
+
+body.full h2 {
+  color: $blue-light;
 } 
 
 header {
   color: $white;
+}
+
+.nav li {
+  font-size: 1.2em;
 }
 
 footer {
