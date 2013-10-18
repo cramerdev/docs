@@ -121,6 +121,10 @@ body.full {
   display: inline-block;
   height: 200px;
   width: 200px;
+  
+  .main & {
+    width: 100%;
+  }
 }
 
 .illy-vision {
@@ -160,11 +164,22 @@ footer {
 /** Content Styles **/
 .nav > li > a:hover,
 .nav > li > a:focus {
-  background-color: lighten($primary,10%);
+  background-color: lighten($primary,1%);
 
   [class*="icon-"] {
     color: #7CAABF;
   }
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  background-color: darken($primary,4%);  
+}
+
+.head-vertical h2 {
+  color: $blue-light;
+  display: inline;
+  font-size: 1em;
+  font-weight: 300;
 }
 
 .head-vertical span.illy {
@@ -174,6 +189,16 @@ footer {
 /** Content Styles **/
 
 a, a:visited { color: $blue-light; }
+
+.page-head {
+  margin-top: -2em;
+  text-align: center;
+}
+
+.toc {
+  display: inline-block;
+  margin-bottom: 2em;
+}
 
 .toc ul {
   margin: 10px 0 0 0;

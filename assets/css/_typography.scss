@@ -33,6 +33,10 @@ header {
   color: $white;
 }
 
+.nav li {
+  font-size: 1.2em;
+}
+
 footer {
   color: lighten($gray,10%);
   font-size: .85em;
