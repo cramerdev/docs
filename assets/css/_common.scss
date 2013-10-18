@@ -98,6 +98,10 @@ body.full {
   width: 25%;
 }
 
+.features span[class*="icon-"] {
+  display: none;
+}
+
 /** Header Styles **/
 
 header {
@@ -129,10 +133,13 @@ footer {
 }
 
 /** Content Styles **/
-
 .nav > li > a:hover,
 .nav > li > a:focus {
   background-color: lighten($primary,10%);
+
+  [class*="icon-"] {
+    color: #7CAABF;
+  }
 }
 
 .head-vertical span.illy {
