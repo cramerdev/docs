@@ -74,7 +74,14 @@ body > .row {
 }
 
 .head-vertical {
-  background-color: #2c3e50;
+  background: #2c3e50 url(/assets/images/bg_harbor.jpg) center bottom no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-box-shadow: inset black -2px 0 3px -2px;
+  -moz-box-shadow: inset black -2px 0 3px -2px;
+  box-shadow: inset black -2px 0 3px -2px;
   position: relative;
 }
 
@@ -125,7 +132,11 @@ body > .row {
 }
 /** Full Width Body Styles **/
 body.full {
-  background-color: #2c3e50;
+  background: #2c3e50 url(/assets/images/bg_harbor.jpg) center bottom no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   color: #0D1F26;
 }
 
@@ -153,7 +164,6 @@ header {
 }
 
 header .top {
-  background-color: #2c3e50;
   margin: 0 0 20px 0;
   padding: 2em 0;
 }
