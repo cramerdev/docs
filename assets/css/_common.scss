@@ -13,7 +13,9 @@ body > .row {
 }
 
 .head-vertical {
-  background-color: $primary;
+  background: $primary url(/assets/images/bg_harbor.jpg) center bottom no-repeat;
+  @include background-size(cover);
+  @include box-shadow(inset rgba(0,0,0,1) -2px 0 3px -2px);
   position: relative;
 }
 
@@ -72,7 +74,8 @@ body > .row {
 /** Full Width Body Styles **/
 
 body.full {
-  background-color: $primary;
+  background: $primary url(/assets/images/bg_harbor.jpg) center bottom no-repeat;
+  @include background-size(cover);
   color: #0D1F26;
 }
 
@@ -102,7 +105,6 @@ header {
 }
 
 header .top {
-  background-color: $primary;
   margin: 0 0 20px 0;
   padding: 2em 0;
 }
