@@ -205,6 +205,16 @@ body.full {
   display: none;
 }
 
+.illy {
+  display: block;
+  height: 210px;
+  width: 300px;
+}
+
+.illy-vision {
+  background: url(../images/illo-principles.png) no-repeat center top;
+}
+
 /** Header Styles **/
 header {
   padding-bottom: 1em;
