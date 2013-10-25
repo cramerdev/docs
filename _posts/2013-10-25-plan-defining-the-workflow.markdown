@@ -18,7 +18,7 @@ Whenever possible, project workflows should be designed around the following cor
 There are detailed sections for each of these core events further day the page. 
 
 ## How Work Gets Defined and Estimated
-A consistent event schedule with specific activities at each event gives us the foundation and process to focus on getting work done and shipping it. One of the most difficult and complex things we run into during the planning events is figuring out how to define the goals and scope of the work that needs to be completed so there are as few unknowns as possible. This ensures that the delivered work successfully maps to clearly identified user needs, as well as empowering the team to make good decisions when balancing inevitable trade-offs so we can respond to constraints like budget or time to market. 
+A consistent event schedule with specific activities at each event gives us the foundation and process to focus on getting work done and shipping it. One of the most difficult and complex things we run into during the planning events is figuring out how to define the goals and scope of the work that needs to be completed so there are as few unknowns as possible. This ensures that the delivered work successfully maps to clearly identified user needs. It also positions the team to make good decisions when balancing inevitable trade-offs in response to constraints like budget or time to market. 
 
 ### Turning Business and Product Requirements Into Stories
 **Highlights**  
