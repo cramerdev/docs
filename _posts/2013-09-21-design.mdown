@@ -4,6 +4,6 @@ title: Design
 ---
 
 <span class="highlight-designers">Designers to scope this out and drive the docs. The goal is to arrive at a consensus for the tools we want to set as the "default" toolbox for accomplishing things like wireframing, prototyping, frameworks, front-end best practices, etc.
-While I agree there will need to be some deviations from this depending on the specific needs of a project, adopting a standard set of tools will allow us more flexibility to jumping from project to projcet, and will make us much more efficient in collaborating together. 
+While I agree there will need to be some deviations from this depending on the specific needs of a project, adopting a standard set of tools will allow us more flexibility to jumping from project to projcet, and will make us much more efficient in collaborating together.
 </span>
 

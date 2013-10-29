@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<h1>Glossary</h1>
+
+{% for section in page.sections %}
+  <h3>{{section.title}}</h3>
+  <ul>
+    {% for hash_tag in section.hash_tags %}
+      <li><a href="{{section.url}}#{{hash_tag}}">{{hash_tag}}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}
