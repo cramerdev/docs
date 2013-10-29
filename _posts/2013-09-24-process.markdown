@@ -11,15 +11,15 @@ By following the guidelines outlined here, you can spend less time in the weeds 
 
 ## 1. Plan
 
-### Customer Discovery
+### [Customer Discovery](/plan-customer-discovery/ )
 
-### Understanding Business Goals
+### [Understanding Business Goals](/plan-business-goals/)
 
-### Designing the Solution
+### [Designing the Solution](/plan-designing-the-solution/)
 
-### Building the Team
+### [Building the Team](/plan-building-the-team/)
 
-### Defining the Workflow
+### [Defining the Workflow](/plan-defining-the-workflow/)
 
 ## 2. Setup
 
