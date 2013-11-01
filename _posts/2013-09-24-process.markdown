@@ -5,31 +5,31 @@ tags: main
 ---
 
 ## Getting Started
-The internet can be a very large and scary place. It is the world's largest repository of information after all. Fear not, we are here. We've created this field guide to help give context to why we do what we do, and what we believe is the most efficient way of doing it. We've spent a lot of time learning the hard way so you don't have to. 
+> "Excellence is never an accident. It is always the result of high intention, sincere effort, and intelligent execution; it represents the wise choice of many alternatives - choice, not chance, determines your destiny." *- Aristotle*
 
-By following the guidelines outlined here, you can spend less time in the weeds and more time accomplishing the  important things in life. Maybe making the world a better place by creating kick-ass products that solve tangible problems and deliver true value to the people who use them? It's just an idea. 
+While there are many ways to build good products, this workflow represents the synthesis our team's deep insights gained from the thousands of real choices we've made building software over the years. We've collected our learnings into a clear and concise path that helps us create and deliver value-generating products to the market. 
 
 ## 1. Plan
 
-### [Customer Discovery](/plan-customer-discovery/ )
-
 ### [Understanding Business Goals](/plan-business-goals/)
+
+### [Customer Discovery](/plan-customer-discovery/ )
 
 ### [Designing the Solution](/plan-designing-the-solution/)
 
 ### [Building the Team](/plan-building-the-team/)
 
-### [Defining the Workflow](/plan-defining-the-workflow/)
+### [Project Workflow](/plan-defining-the-workflow/)
 
 ## 2. Setup
+
+### [Product Roadmap](/setup-product-roadmap/)
 
 ### Prototyping
 
 ### App Framework Setup
 
 ### Infrastructure Setup
-
-### Product Roadmap
 
 ## 3. Build
 
@@ -39,15 +39,15 @@ By following the guidelines outlined here, you can spend less time in the weeds 
 
 ### Development
 
-### Weekly Demo & Feedback
+### [Weekly Demo & Feedback](/build-weekly-demo)
 
 ## 4. Launch
 
-### Production Checklist
+### [Production Checklist](/launch-production-checklist)
 
 ## 5. Analyze
 
-### Dashboarding
+### [Dashboarding](/analyze-dashboarding/)
 
 ### Performance Monitoring
 
