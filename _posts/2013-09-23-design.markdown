@@ -5,44 +5,43 @@ title: Design
 
 
 ## Objective
-Some really intelligent overarching statement about our design process and capabilities
+We are completely focused on producing a great user experience through visual, interaction and user-centered design principles.
+
+Like you, we also enjoy a well designed product. We also realize that design, much like development, can benefit greatly from a collaborative and iterative approach. 
+
+Using a variety of tools such as user research, wireframes and prototypes we keep you and your potential customers close throughout the design process. 
 
 ## Principles
-Our work defines us. If we cut corners, then we will attract clients and projects that do the same. 
+Our work defines our future. The more successful your product, the happier you and your customers will be. 
 
-These design principles should guide everything we work on, small or large. 
+With that in mind, we abide by the following set of design principles for projects of all sizes. These principles drive the quality of our work and in turn the success of your products.
 
-We do not cut corners.
-
-* Work as a team. Collaborate. We all contribute to design.
-* Find the best solution. Research. Validate your assumptions. 
-* Maintain a minimum level of quality. On all projects, regardless of size or deadline.
-* Own the process. We are hired for our expertise, use it. 
-* Be empathetic. Users are the focus of our efforts. Follow a User Centered Design process.
-* Design around content and user goals. If you miss this, then nothing else matters.
-* Rapid prototyping. Iterate early and often. Share your work.
-* Educate. Collaborate with clients. Explain your decisions.
+* Work as a team. We all collaborate towards attaining the optimal user experience.
+* Find the best solution. Research and validate your assumptions. 
+* Maintain a high level of quality. On all projects and interactions, regardless of size or deadline.
+* Own the process. We are hired for our expertise, have a purpose and be prepared to explain your approach. 
+* Be empathetic. Users are the focus of our efforts thus we follow a User Centered Design process.
+* Design around content and user goals. If you miss this, then nothing else matters regardless of how well it looks visually.
+* Iterate early and often. Share your sketches, wireframes and prototypes. 
+* Educate. Collaborate with clients and explain your work.
 * Honest critiques. Don't hold back, push each other to become better.
-* Pixel perfection. "Good enough" is simply not acceptable. 
+* Pixel perfection. "Good enough" is just that. 
 * Embrace mobile first. Not as an option, rather the starting point.
-* Simplify. When you are done, simplify some more.
+* Simplify. When you are done, simplify then simlpify some more.
 
-Emphasizing design is a proven tactic in all lines of business -  successful projects and happy clients will propel us forward. Our products define not only our clients but our company.
+Successful projects and happy clients will propel us forward. The level of quality we produce now will define our future success.
 
 ## Services & Tools
-We offer a variety of services and tools that allow us to accomplish the goals of our clients. Whether we are designing and building a website, web app or native app these services provide our clients full coverage for a successful project.
+We offer a variety of services and tools that allow us to accomplish the goals of our clients. Whether we are designing and building a website, web application or native application these services provide our clients full coverage for a successful user experience.
 
-### **Research** 
+### **User Research** 
 	User profiles, user testing, heuristic reviews, task/goal analysis
 
 ### **Interaction Design**
 	Sketching, wireframes, prototype, user flows
 
-### **Content Development**
-	Information Architecture, site map, copy writing, editing
-
 ### **Visual Design**
-	Style tile/moodboard, hi-fi comps, style guides
+	Style tiles/mood boards, hi-fi comps, style guides
 
 ### **Branding**
 	Logo design, brochure sites
@@ -59,21 +58,21 @@ The same for web and app design - steps may be scaled, but should not be removed
 	- Solution Building (team discusses solutions)
 	- *Present Proposal* (include reps from each discipline)
 
-2. **Design**
-	- Interaction Design (SIZE: sketch, wireframe, user flows, prototype)
+2. **Setup**
+	- Interaction Design (sketch, wireframe, user flows, prototype)
 	- User Testing
 	- Content Development (site map, IA, content outline, writing)
-	- Visual Design (SIZE: style tile, mood board, comps)
+	- Visual Design (style tiles, mood boards, comps)
 
-3. **Development**
-	- Coding
+3. **Build**
+	- Coding the User Interface
+	- Preparing Design Assets
 	- Content Population
 	- Cross Platform, Device and Browser Testing
-	- QA (test and prod environments)
-	- *Launch*
+	- UX QA (identify and address UX debt)
 
-4. **Post Launch**
-	- Training (SIZE: documentation, style guides, admin training)
+4. **Launch & Analyze**
+	- Training (documentation, style guides, admin training)
 	- Analyze (Progress on KPIs)
 	- Technical Support
 	- Refine (user test, iterate and improve)
