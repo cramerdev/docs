@@ -34,7 +34,11 @@ header {
 }
 
 .nav li {
-  font-size: 1.2em;
+  font-size: 1.0em;
+  
+  &.active a h2 {
+    color: $white;
+  } 
 }
 
 footer {
