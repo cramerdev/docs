@@ -40,7 +40,10 @@ header {
 }
 
 .nav li {
-  font-size: 1.2em;
+  font-size: 1.0em;
+}
+.nav li.active a h2 {
+  color: #fcfbf7;
 }
 
 footer {
