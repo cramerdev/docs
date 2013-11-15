@@ -25,7 +25,7 @@ While there are many ways to build good products, this workflow represents the s
 
 ### [Product Roadmap](/setup-product-roadmap/)
 
-### Prototyping
+### [Interaction Design](/design-interaction/)
 
 ### App Framework Setup
 
@@ -33,7 +33,7 @@ While there are many ways to build good products, this workflow represents the s
 
 ## 3. Build
 
-### Visual Design
+### [Visual Design](/design-visual/)
 
 ### Front-end
 
