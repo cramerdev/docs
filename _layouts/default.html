@@ -15,9 +15,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <ul class="nav nav-pills nav-stacked">
-              {% include core-nav.html %}
-            </ul>
+            {% include core-nav.html %}
           </div>
         </div>
       </div>
@@ -34,7 +32,9 @@
       </div>-->
     
       <!-- from index.html -->    
+      <section>
       {{content}}
+      </section>
       
       {% include footer.html %}      
     </div>
