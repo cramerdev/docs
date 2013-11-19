@@ -1,4 +1,5 @@
 $(function() {
+
   $(".toc").toc({
     selectors: '.main > h2',
     'itemClass': function(i, heading, $heading, prefix) { // custom function for item class
@@ -6,5 +7,15 @@ $(function() {
       
       return theClassName;    
       }
+  });
+
+  // toggle navigation
+  $('li.parent a').click(function(){
+    var thisParent = $(this).parent(),
+        thisNav = $('> ul', thisParent);
+  
+    thisNav.slideToggle();
+    thisParent.toggleClass('active');
+
   });
 });

@@ -2,7 +2,7 @@
 
 $blue: #2C3E50;
 $blue-dark: #0D1F26;
-$blue-light: #8CC2D9;
+$blue-light: darken(#8CC2D9,11);
 
 $gray: #424242;
 $purple-light: #EBD5F1;
@@ -13,5 +13,7 @@ $white: #FCFBF7;
 /* Branding */
 $primary: $blue;
 
-/* Global */
+/* Typography */
 $body-text: $blue-dark;
+$sans-serif-font: 'Open Sans', sans-serif; // 300,400italic,400,700
+$serif-font: 'Domine', serif; // 400,700

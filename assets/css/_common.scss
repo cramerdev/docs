@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-  background: $primary;
+  background: lighten($primary,11);
   position: relative;  
 }
 
@@ -21,11 +21,12 @@ body > .row {
   position: relative;  
 
   section {
-    background-color: darken($white,4%);
+    background-color: darken($white,2%);
     border-radius: 2px;
     border-top: 1px solid $white;
     @include box-shadow(0 0 7px rgba(0,0,0, .40));
-    max-width: 900px;    
+    max-width: 900px;  
+    min-height: 640px;  
     padding: 2em;
   }
 
@@ -36,7 +37,6 @@ body > .row {
 }
 
 section h1 {
-  color: $primary;
   display: block;
 }
 
@@ -145,15 +145,27 @@ body.full {
 /** Header Styles **/
 
 header .top {
-  margin: 0 0 20px 0;
-  padding: 2em 0 1em;
+  margin: 0 0 1em 0;
+  padding: 2.6em 0 0;
+  text-align: center;
+  
+  h2 {
+    color: $white;
+    margin-bottom: 0;
+  }
+  
+  p {
+    color: lighten($primary,40);
+    font-style: italic;
+    margin-top: 1em;
+  }
+  img {
+    margin-left: 0.4em;
+  }
 }
 
-.head-vertical h2 {
-  color: $blue-light;
+.head-vertical h3 {
   display: inline;
-  font-size: 1em;
-  font-weight: 300;
 }
 
 .head-vertical span.illy {
@@ -161,12 +173,23 @@ header .top {
 }
 
 /** Nav Styles **/
+[class*="icon-"] {
+  color: $blue-light;
+}
+
+.nav li {
+  margin: 0.2em 0;
+}
+.nav > li > a {
+  padding: .2em 1em;
+}
+
 .nav > li > a:hover,
 .nav > li > a:focus {
-  background-color: lighten($primary,1%);
+  background-color: lighten($primary,8);
 
   [class*="icon-"] {
-    color: #7CAABF;
+    color: $white;
   }
 }
 
@@ -175,7 +198,7 @@ header .top {
 }
 
 ul.nav-accordion {
-  background: darken($primary,3);
+  background: $primary;
   border-radius: 3px;
   margin-top: 1em;
   padding-left: 0;
@@ -183,28 +206,43 @@ ul.nav-accordion {
   li {
     font-size: .85em;
     list-style: none;
-    padding: 0 1.2em 1.2em;
-  }
-  
-  li.parent + li {
-    padding-top: 1.2em;    
   }
   
   li.parent {
-    background-color: darken($primary,6);
-    box-shadow: 0 1px 0 rgba(0,0,0, 0.15);
-    color: lighten($primary,11);
-    padding: 1.2em;
-    text-transform: uppercase;
+    margin: 0;
     
-    &:first-child {
+    h3 {
+      background-color: darken($primary,3);
+      box-shadow: 0 1px 0 rgba(0,0,0, 0.15);
+      display: block;
+      margin: 0;
+      padding: 1.2em;
+      text-transform: uppercase;         
+    }
+    
+    &:first-child h3 {
       border-radius: 3px 3px 0 0;      
+    }
+    
+    &:last-child h3 {
+      border-radius: 0 0 3px 3px;      
+    }     
+  }
+  
+  ul {
+    display: none;
+    margin: 0 0 1em;
+    padding: 0;
+    
+    li {
+      padding-left: 2.4em;
+      padding-right: 1em;          
     }
   }
   
-  li.active, li.active a {
-    color: $white;
-  }  
+  li.active > ul {
+    display: block;
+  }
 }
 
 /** Table of Content Styles (toc) **/
@@ -234,10 +272,30 @@ ul.nav-accordion {
   margin-bottom: 3em;
 }
 
+
+// Pagination
+
+.pagination {
+  border-radius: 0;
+  border-top: 1px solid;
+  display: block;
+  margin: 1em 0 0;
+  padding-top: 1em;
+  width: 100%;
+}
+
+.prev {
+  float: left;
+}
+
+.next {
+  float: right;
+}
+
 /** Footer Styles **/
 
 footer {
-  border-top: 1px solid lighten($gray,10%);
+  border-top: 1px solid $primary;
   margin-top: 4em;
   padding: 1.4em 0;
   
