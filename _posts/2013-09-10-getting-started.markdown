@@ -3,8 +3,8 @@ layout: page
 title: Getting Started
 ---
 
-About the Waypoints, how they came about
+Getting started with Waypoints, how to use it
 
 ## Purpose
 
-Purpose of the Waypoints and why we share them
+What you can get from it, etc.
