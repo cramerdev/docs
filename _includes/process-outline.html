@@ -1,42 +1,49 @@
-
-<li class="parent active"><a href="#"><h3>1. Plan</h3></a>
+<li class="parent {% if page.category == 'Plan' %}active{% endif %}"><a href="#"><h3>1. Plan</h3></a>
   <ul>
-    <li><a href="/plan-business-goals/"><h4>Understanding Business Goals</h4></a></li>
-    <li><a href="/plan-customer-discovery/ ">Customer Discovery</h4></a></li>
-    <li><a href="/plan-designing-the-solution/"><h4>Designing the Solution</h4></a></li>
-    <li><a href="/plan-building-the-team/"><h4>Building the Team</h4></a></li>
-    <li><a href="/plan-defining-the-workflow/"><h4>Project Workflow</h4></a></li>
+    {% for post in site.categories.plan %}
+
+    <li {% if page.url == post.url %}class="active"{% endif %}><a href="{{ post.url }}"><h4>{{ post.title }}</h4></a></li>
+    
+    {% endfor %}
   </ul>
 </li>
 
-<li class="parent"><a href="#"><h3>2. Setup</h3></a>
+<li class="parent {% if page.category == 'Setup' %}active{% endif %}"><a href="#"><h3>2. Setup</h3></a>
   <ul>
-    <li><a href="/setup-product-roadmap/"><h4>Product Roadmap</h4></a></li>
-    <li><a href="/design-interaction/"><h4>Interaction Design</h4></a></li>
-    <li><a href=""><h4>App Framework Setup</h4></a></li>  
-    <li><a href=""><h4>Infrastructure Setup</h4></a></li>
+    {% for post in site.categories.setup %}
+
+    <li {% if page.url == post.url %}class="active"{% endif %}><a href="{{ post.url }}"><h4>{{ post.title }}</h4></a></li>
+    
+    {% endfor %}
   </ul>
 </li>
 
-<li class="parent"><a href="#"><h3>3. Build</h3></a>
+<li class="parent {% if page.category == 'Build' %}active{% endif %}"><a href="#"><h3>3. Build</h3></a>
   <ul>
-    <li><a href="/design-visual/"><h4>Visual Design</h4></a></li>    
-    <li><a href=""><h4>Front-end</h4></a></li>    
-    <li><a href=""><h4>Development</h4></a></li>    
-    <li><a href="/build-weekly-demo">Weekly Demo & Feedback</h4></a></li>
+    {% for post in site.categories.build %}
+
+    <li {% if page.url == post.url %}class="active"{% endif %}><a href="{{ post.url }}"><h4>{{ post.title }}</h4></a></li>
+    
+    {% endfor %}
   </ul>
 </li>
 
-<li class="parent"><a href="#"><h3>4. Launch</h3></a>
+<li class="parent {% if page.category == 'Launch' %}active{% endif %}"><a href="#"><h3>4. Launch</h3></a>
   <ul>
-    <li><a href="/launch-production-checklist">Production Checklist</h4></a></li>
-  </ul>
+    {% for post in site.categories.launch %}
+
+    <li {% if page.url == post.url %}class="active"{% endif %}><a href="{{ post.url }}"><h4>{{ post.title }}</h4></a></li>
+    
+    {% endfor %}
+  </ul>    
 </li>
 
-<li class="parent"><a href="#"><h3>5. Analyze</h3></a>
-  <ul class="clearfix">
-    <li><a href="/analyze-dashboarding/"><h4>Dashboarding</h4></a></li>
-    <li><a href=""><h4>Performance Monitoring</h4></a></li>    
-    <li><a href=""><h4>Optimization</h4></a></li>
-  </ul>
+<li class="parent {% if page.category == 'Analyze' %}active{% endif %}"><a href="#"><h3>5. Analyze</h3></a>
+  <ul>
+    {% for post in site.categories.analyze %}
+
+    <li {% if page.url == post.url %}class="active"{% endif %}><a href="{{ post.url }}"><h4>{{ post.title }}</h4></a></li>
+    
+    {% endfor %}
+  </ul>    
 </li>

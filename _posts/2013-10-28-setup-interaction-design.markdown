@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Interaction Design
+category: Setup
 ---
 
 

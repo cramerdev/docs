@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Plan - Defining The Workflow
+title: Defining The Workflow
 tags: main
+category: Plan
 ---
 
 ## Overview

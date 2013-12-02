@@ -31,11 +31,11 @@ a, a:visited {
 }
 
 a:hover, a:focus, a:active {
-  color: #2c3e50;
+  color: #2e4153;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #2c3e50;
+  color: #2e4153;
   font-family: "Domine", serif;
   font-weight: 400;
 }
@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  border-bottom: 1px solid;
+  border-bottom: 1px solid #3887a9;
   color: #3887a9;
   font-family: "Open Sans", sans-serif;
   font-size: 2.125em;
@@ -107,16 +107,16 @@ header {
 }
 
 .nav-accordion h3 {
-  color: #507192;
+  color: #527495;
 }
-.nav-accordion li a, .nav-accordion h4 {
+.nav-accordion li a, .nav-accordion h3, .nav-accordion h4 {
   color: #62accb;
   text-decoration: none;
 }
-.nav-accordion li a:hover, .nav-accordion h4:hover {
+.nav-accordion li a:hover, .nav-accordion h3:hover, .nav-accordion h4:hover {
   color: #fcfbf7;
 }
-.nav-accordion li.active h3 {
+.nav-accordion li.active h3, .nav-accordion .parent li.active h4 {
   color: #fcfbf7;
 }
 
@@ -185,7 +185,7 @@ html, body {
 }
 
 body {
-  background: #405a74;
+  background: #425d77;
   position: relative;
 }
 
@@ -256,7 +256,7 @@ section h1 {
 }
 /** Full Width Body Styles **/
 body.full {
-  background: #2c3e50 url(/assets/images/bg_harbor.jpg) center bottom no-repeat;
+  background: #2e4153 url(/assets/images/bg_harbor.jpg) center bottom no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -288,7 +288,7 @@ body.full {
   width: 100%;
 }
 .features ul li a:hover {
-  background-color: #233140;
+  background-color: #253443;
   background-color: rgba(0, 0, 0, 0.1);
   text-decoration: none;
   -webkit-transition: all 0.2s ease-in;
@@ -317,7 +317,7 @@ body.full {
 /** Header Styles **/
 header .top {
   margin: 0 0 1em 0;
-  padding: 2.6em 0 0;
+  padding: 2.5em 0 0;
   text-align: center;
 }
 header .top h2 {
@@ -325,7 +325,7 @@ header .top h2 {
   margin-bottom: 0;
 }
 header .top p {
-  color: #8aa4be;
+  color: #8da7c0;
   font-style: italic;
   margin-top: 1em;
 }
@@ -356,7 +356,7 @@ header .top img {
 
 .nav > li > a:hover,
 .nav > li > a:focus {
-  background-color: #3a526a;
+  background-color: #3d566d;
 }
 .nav > li > a:hover [class*="icon-"],
 .nav > li > a:focus [class*="icon-"] {
@@ -364,11 +364,11 @@ header .top img {
 }
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
-  background-color: #253443;
+  background-color: #273746;
 }
 
 ul.nav-accordion {
-  background: #2c3e50;
+  background: #2a3c4c;
   border-radius: 3px;
   margin-top: 1em;
   padding-left: 0;
@@ -381,7 +381,7 @@ ul.nav-accordion li.parent {
   margin: 0;
 }
 ul.nav-accordion li.parent h3 {
-  background-color: #273646;
+  background-color: #32465a;
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
   display: block;
   margin: 0;
@@ -396,11 +396,11 @@ ul.nav-accordion li.parent:last-child h3 {
 }
 ul.nav-accordion ul {
   display: none;
-  margin: 0 0 1em;
-  padding: 0;
+  margin: 0;
+  padding: 0 0 0.2em;
 }
 ul.nav-accordion ul li {
-  padding-left: 2.4em;
+  padding-left: 2.3em;
   padding-right: 1em;
 }
 ul.nav-accordion li.active > ul {
@@ -435,7 +435,7 @@ ul.nav-accordion li.active > ul {
 
 .pagination {
   border-radius: 0;
-  border-top: 1px solid;
+  border-top: 1px solid #3887a9;
   display: block;
   margin: 1em 0 0;
   padding-top: 1em;
@@ -452,7 +452,7 @@ ul.nav-accordion li.active > ul {
 
 /** Footer Styles **/
 footer {
-  border-top: 1px solid #2c3e50;
+  border-top: 1px solid #2e4153;
   margin-top: 4em;
   padding: 1.4em 0;
 }

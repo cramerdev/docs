@@ -14,8 +14,9 @@ $(function() {
     var thisParent = $(this).parent(),
         thisNav = $('> ul', thisParent);
   
-    thisNav.slideToggle();
-    thisParent.toggleClass('active');
+    $('li.parent > ul').slideUp();
+    thisNav.slideDown();
+    thisParent.toggleClass('active').siblings().removeClass('active');
 
   });
 });

@@ -2,6 +2,7 @@
 layout: page
 title: Product Checklist
 tags: main
+category: Launch
 ---
 
 A checklist should totally go here. 

@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Plan - Understanding Business Goals
+title: Understanding Business Goals
 tags: main
+category: Plan
 ---
 
 We understand that each business is unique and special. As you well know, every business needs to get a few basic things right in order to keep the lights on:

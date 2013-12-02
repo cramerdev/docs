@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Plan - Building The Team
+title: Building The Team
 tags: main
+category: Plan
 ---
 
 ## Building The Team

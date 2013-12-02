@@ -2,6 +2,7 @@
 layout: page
 title: Product Roadmap
 tags: main
+category: Setup
 ---
 
 Product roadmaps are not the easiest thing to pin down, especially in the early stages of a product lifecycle. Thankfully, the planning phase yielded some valuable artifacts for driving the product roadmap. Our exact process must vary to a certain degree depending on the product, market, and unique stakeholder needs, but we follow a few general best practices:

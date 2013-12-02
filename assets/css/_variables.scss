@@ -1,8 +1,9 @@
 /* Colors */
 
-$blue: #2C3E50;
+$blue: #2e4153;
 $blue-dark: #0D1F26;
 $blue-light: darken(#8CC2D9,11);
+$blue-medium: darken($blue-light,15);
 
 $gray: #424242;
 $purple-light: #EBD5F1;
