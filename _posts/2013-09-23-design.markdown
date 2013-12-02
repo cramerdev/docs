@@ -5,7 +5,7 @@ title: Design
 
 
 ## Objective
-We are completely focused on producing a great user experience through visual, interaction and user-centered design principles.
+The design team at CramerDev employs visual, interaction and user-centered design principles to create great user experiences.
 
 Like you, we also enjoy a well designed product. We also realize that design, much like development, can benefit greatly from a collaborative and iterative approach. 
 
@@ -71,10 +71,13 @@ The same for web and app design - steps may be scaled, but should not be removed
 	- Cross Platform, Device and Browser Testing
 	- UX QA (identify and address UX debt)
 
-4. **Launch & Analyze**
+4. **Launch**
+
+5. **Analyze**
 	- Training (documentation, style guides, admin training)
 	- Analyze (Progress on KPIs)
 	- Technical Support
+	- Track and resolve UX debt
 	- Refine (user test, iterate and improve)
 
 

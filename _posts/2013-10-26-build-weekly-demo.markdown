@@ -2,6 +2,7 @@
 layout: page
 title: Weekly Demo & Feedback
 tags: main
+category: Build
 ---
 
 Being agile and lean means deploying working software in smaller increments. We believe it's best to chunk stories down to a small enough size such that when the story is finished, there is something tangible that can be experienced by the end user. The weekly demo and feedback session provide the forum for the design and development teams to show off the work they completed during the previous iteration to the broader product development team and stakeholders. 

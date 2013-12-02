@@ -1,5 +1,9 @@
 <!-- core navigation -->
-<li {% if page.title == 'Vision' %} class="active" {% endif %} ><a href="{% post_url 2013-09-25-principles %}"><span class="illy illy-vision"></span><span class="icon-vision"></span><h2>Vision</h2></a></li>
-<li {% if page.title == 'Framework' %} class="active" {% endif %} ><a href="{% post_url 2013-09-24-process %}"><span class="illy illy-vision"></span><span class="icon-workflow"></span><h2>Framework</h2></a></li>
-<li {% if page.title == 'Development' %} class="active" {% endif %} ><a href="{% post_url 2013-09-22-development %}"><span class="illy illy-vision"></span><span class="icon-development"></span><h2>Development</h2></a></li>            
-<li {% if page.title == 'Design' %} class="active" {% endif %} ><a href="{% post_url 2013-09-21-design %}"><span class="illy illy-vision"></span><span class="icon-design"></span><h2>Design</h2></a></li>
+<ul class="nav">
+  <li {% if page.title == 'Getting Started' %} class="active" {% endif %} ><a href="{% post_url 2013-09-10-getting-started %}"><span class="illy illy-vision"></span><span class="icon-workflow"></span><h3>Getting Started</h3></a></li>
+  <li {% if page.title == 'Vision' %} class="active" {% endif %} ><a href="{% post_url 2013-09-25-principles %}"><span class="illy illy-vision"></span><span class="icon-vision"></span><h3>Vision</h3></a></li>
+</ul>
+
+<ul class="nav-accordion">
+  {% include process-outline.html %} 
+</ul>

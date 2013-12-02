@@ -2,6 +2,7 @@
 layout: page
 title: Designing The Solution
 tags: main
+category: Plan
 ---
 
 Building a product - whether it be a web application, native mobile app, or simple web site - requires an enormous amount of design. Some think design is simply about how a logo looks or the visual styles on a web page. We have a different opinion when it comes to what "designing" means. We feel design is much bigger than that, and it's the most important thing we each do each and every day. 

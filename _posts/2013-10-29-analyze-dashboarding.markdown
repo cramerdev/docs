@@ -2,6 +2,7 @@
 layout: page
 title: Dashboarding
 tags: main
+category: Analyze
 ---
 
 Comprehensive business intelligence data visualized effectively is the crux of making good decisions on the fly and ultimately iterating to success. Having a combination of system, user, and support data on a dashboard provides invaluable insights. Things we like to track on product dashboards:

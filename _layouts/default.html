@@ -7,7 +7,8 @@
       <header>
         <div class="top">
           <div class="container">
-            <a href="/"><img src="/assets/images/logo.svg"></a>
+            <h2>Waypoints</h2>           
+            <p>by <a href="/"><img src="/assets/images/logo.svg"></a></p>
           </div>
         </div>
       </header>
@@ -15,9 +16,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <ul class="nav nav-pills nav-stacked">
-              {% include core-nav.html %}
-            </ul>
+            {% include core-nav.html %}
           </div>
         </div>
       </div>
@@ -34,7 +33,9 @@
       </div>-->
     
       <!-- from index.html -->    
+      <section>
       {{content}}
+      </section>
       
       {% include footer.html %}      
     </div>
