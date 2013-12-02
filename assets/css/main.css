@@ -324,6 +324,9 @@ header .top h2 {
   color: #fcfbf7;
   margin-bottom: 0;
 }
+header .top a:hover {
+  text-decoration: none;
+}
 header .top p {
   color: #8da7c0;
   font-style: italic;
@@ -382,7 +385,7 @@ ul.nav-accordion li.parent {
 }
 ul.nav-accordion li.parent h3 {
   background-color: #32465a;
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
   display: block;
   margin: 0;
   padding: 1.2em;
