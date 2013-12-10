@@ -6,7 +6,7 @@ category: Plan
 ---
 
 ## Objective
-Building a product - whether it be a web application, native mobile app, or simple web site - requires an enormous amount of design. Some think design is simply about how a logo looks or the visual styles on a web page. We have a different opinion when it comes to what "designing" means. We feel design is much bigger than that, and it's the most important thing we each do each and every day. 
+Building a product - whether it be a web application, native mobile app, or simple web site - requires an enormous amount of design. Some think design is simply about how a logo looks or the visual styles on a web page. We have a different opinion when it comes to what "designing" means. We feel design is much bigger than that, and it's the most important thing we each do each and every day. Spending adequate amount of time designing during the planning stage will pay for itself over the course of the product lifecycle. 
 
 ## Principles
 Design is the creation of a plan or convention for the construction of an object or a system. Having a product idea is the easy part. Executing on it effectively is the hardest part. Starting with a solid design for all the pieces that makes up your product or business is a necessary step to ensuring you're building the right product in the right way. 
