@@ -1,6 +1,6 @@
 <li class="parent {% if page.category == 'Plan' %}active{% endif %}"><a href="#"><h3>1. Plan</h3></a>
   <ul>
-    {% for post in site.categories.plan %}
+    {% for post in site.categories.plan reversed %}
 
     <li {% if page.url == post.url %}class="active"{% endif %}><a href="{{ post.url }}"><h4>{{ post.title }}</h4></a></li>
     
@@ -10,7 +10,7 @@
 
 <li class="parent {% if page.category == 'Setup' %}active{% endif %}"><a href="#"><h3>2. Setup</h3></a>
   <ul>
-    {% for post in site.categories.setup %}
+    {% for post in site.categories.setup reversed %}
 
     <li {% if page.url == post.url %}class="active"{% endif %}><a href="{{ post.url }}"><h4>{{ post.title }}</h4></a></li>
     
@@ -20,7 +20,7 @@
 
 <li class="parent {% if page.category == 'Build' %}active{% endif %}"><a href="#"><h3>3. Build</h3></a>
   <ul>
-    {% for post in site.categories.build %}
+    {% for post in site.categories.build reversed %}
 
     <li {% if page.url == post.url %}class="active"{% endif %}><a href="{{ post.url }}"><h4>{{ post.title }}</h4></a></li>
     
@@ -30,7 +30,7 @@
 
 <li class="parent {% if page.category == 'Launch' %}active{% endif %}"><a href="#"><h3>4. Launch</h3></a>
   <ul>
-    {% for post in site.categories.launch %}
+    {% for post in site.categories.launch reversed %}
 
     <li {% if page.url == post.url %}class="active"{% endif %}><a href="{{ post.url }}"><h4>{{ post.title }}</h4></a></li>
     
@@ -40,7 +40,7 @@
 
 <li class="parent {% if page.category == 'Analyze' %}active{% endif %}"><a href="#"><h3>5. Analyze</h3></a>
   <ul>
-    {% for post in site.categories.analyze %}
+    {% for post in site.categories.analyze reversed %}
 
     <li {% if page.url == post.url %}class="active"{% endif %}><a href="{{ post.url }}"><h4>{{ post.title }}</h4></a></li>
     

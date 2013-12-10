@@ -5,11 +5,13 @@ tags: main
 category: Plan
 ---
 
+## Objective
 Building a product - whether it be a web application, native mobile app, or simple web site - requires an enormous amount of design. Some think design is simply about how a logo looks or the visual styles on a web page. We have a different opinion when it comes to what "designing" means. We feel design is much bigger than that, and it's the most important thing we each do each and every day. 
 
+## Principles
 Design is the creation of a plan or convention for the construction of an object or a system. Having a product idea is the easy part. Executing on it effectively is the hardest part. Starting with a solid design for all the pieces that makes up your product or business is a necessary step to ensuring you're building the right product in the right way. 
 
-## High Level Product Design Checklist
+## Our Process
 We start designing products by analyzing the business model canvas. There are different levels of design that need to take place at this point, and we've found it optimal to work linearly down this list:
 
 1. Business Model Canvas - This should be done by this point, but if it's not, finish it!  
@@ -26,3 +28,6 @@ Then depending on the particular project needs and what has been validated, one 
 * Branding, mood boards, & visual style guides
 * Content 
 
+## Services & Tools
+
+## Learning Resources
