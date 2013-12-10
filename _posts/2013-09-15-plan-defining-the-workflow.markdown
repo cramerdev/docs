@@ -5,9 +5,11 @@ tags: main
 category: Plan
 ---
 
-## Overview
+## Objective
 Every project has unique constraints and needs. The one thing we try to keep as consistent as possible across all of our projects is the workflow and project management process we follow. We've found that the best outcomes are achieved when the stakeholders and product teams are working collaboratively together on a daily basis. 
 
+
+## Principles 
 Whenever possible, project workflows should be designed around the following core events:  
 
 1. Monthly Release Planning Meetings 
@@ -18,10 +20,12 @@ Whenever possible, project workflows should be designed around the following cor
 
 There are detailed sections for each of these core events further day the page. 
 
-## How Work Gets Defined and Estimated
+## Our Process
+
+### How Work Gets Defined and Estimated
 A consistent event schedule with specific activities at each event gives us the foundation and process to focus on getting work done and shipping it. One of the most difficult and complex things we run into during the planning events is figuring out how to define the goals and scope of the work that needs to be completed so there are as few unknowns as possible. This ensures that the delivered work successfully maps to clearly identified user needs. It also positions the team to make good decisions when balancing inevitable trade-offs in response to constraints like budget or time to market. 
 
-### Turning Business and Product Requirements Into Stories
+#### Turning Business and Product Requirements Into Stories
 **Highlights**  
   > Stories should be written from the perspective of a user in this format - "As a (Who? *[User Role]*), I want (What? *[Feature]*) so that (Why? *[Problem that the feature will solve for the user]*). "
 
@@ -38,14 +42,14 @@ So an example story could read something like:
 
 This criteria then forces the product team to think critically about the best way to solve that problem and deliver functionality that allows the user to accomplish their goal. 
 
-### How We Manage The Stories
+#### How We Manage The Stories
 **Highlights**  
 > We use Pivotal Tracker to manage stories. You should read and watch the [Getting Started Guide](https://www.pivotaltracker.com/help/gettingstarted) to familiarize yourself with the workflow.
 
 **In Depth**  
 Fortunately, there is already a great solution for project managers to communicate and track stories for development projects. We are currently using [Pivotal Tracker](https://www.pivotaltracker.com) to keep track of our stories as a product team. For the sake of brevity, we'll refer you to their [Getting Started Guide](https://www.pivotaltracker.com/help/gettingstarted) to get the background you need on how to use the tool, how to understand the different types of stories (Features, Chores, Bugs, and Releases), and basic workflow. 
 
-### How We Manage The Story Status and Lifecycle
+#### How We Manage The Story Status and Lifecycle
 **Highlights** 
 >*"Start"* when you begin working on the story. *Finish* when you're ready for code review. *Deliver* when it's ready for acceptance from a product owner or QA. *Restart* to fix the defects when the story gets rejected.
 
@@ -60,7 +64,7 @@ It is important to know the basic workflow for managing story statuses. The life
 6. At this point, the product owner reviews the fully functioning deliverables of the story and either *"accepts"* or **"rejects"* the story based on whether or not it meets the "done done" criteria. 
 7. If the story is accepted, it's considered completed. If it is rejected, the story has a *"restart"* state. Once the team member working on story restarts it, it follows the same process and flow in steps #4-#6. 
 
-### Estimating Stories
+#### Estimating Stories
 **Highlights**
 > Points are based on complexity. Sometimes it's helpful to think about complexity in tangible ways like one story point equaling an ideal day for you with no blockers or unknowns.
 > Break stories down into smaller stories to keep estimates for each story under 3.
@@ -85,8 +89,8 @@ This is definitely not an exact science, but it is a very effective way of using
 
 At its core, story points are not just for estimation, but represent the amount of time spent by the team working on delivering new value for the end users of the products we build.
 
-## Details On Core Event Activities
-### Monthly Release Planning Meetings 
+### Details On Core Event Activities
+#### Monthly Release Planning Meetings 
 **Highlights**
 > The goal for these meetings is to scope out on a high level the features and functionality in the form of stories that will be the focus of the product team's activities leading up to the next release.  This is where we understand more about business requirements and how our work correlates to specific business objectives.
 
@@ -97,7 +101,7 @@ This is where we begin taking rough business requirements and turning them into 
 
 At this point, stories and requirements might be a little bit rough in terms of complete scope and requirements, but they are usually sufficient to provide an initial story point estimate. There are still unknowns, but that is OK. Release planning allows us to start giving shape to turning ideas into tangible work output.  
 
-### Weekly Iteration Planning Meetings 
+#### Weekly Iteration Planning Meetings 
 **Highlights**
 > Recurring weekly meeting where the team reviews business objectives specified by the stakeholders and makes commitments to deliverables for the week.  Detailed requirements are discussed and story point estimates are updated where applicable.  The final priorities and queue order for the tasks are set by the stakeholders, based on both business objectives and the teams feedback. 
 
@@ -112,7 +116,7 @@ At that point, we go back to the drawing board and break down the work into even
 
 It's also important to note that, as much as possible, once commitments are made, stakeholders do not change the priorities for the current iteration. Only hotfixes and immediate or critical threats to the success of the business are allowed to take precedence over the previously agreed upon priorities for any given iteration. This safeguards and prevents the team from being jerked around; providing increased stability and focus to delivering their stories to the best of their ability throughout the week. 
 
-### Daily Stand-ups 
+#### Daily Stand-ups 
 **Highlights**
 > Daily get together with the team to give status updates on work completed the previous day, tasks that will be worked on for the current day, and blockers preventing individuals from completing their stories. Stakeholders and product owners do not actively participate, but act as representatives of the end users should the team have questions on desired behavior or functionality. 
 
@@ -128,7 +132,7 @@ If it's identified on the second or third day of the iteration that the initial 
 
 We've found that it's best if discussion during standups is limited specificly to team members with assigned stories and the facilitator of the standup. It's easy for a client or product owner to want to weigh in, but uninvited interference from stakeholders and clients during standups usually turns them from a 5 minute meeting to a 45 minute discussion where an entire team just lost 13% of their day to a meeting. If clients or stakeholders need to discuss requirements, it's best to request a breakout with the project or product manager assigned to the team. And even more so, if these mid-iteration breakout meetings are frequent, it's usually a sign of process problems up the stream either during release planning, backlog grooming, or iteration planning. 
 
-### Weekly Demos 
+#### Weekly Demos 
 **Highlights**
 > Show of a working component of the product that represents the stories (and value) the team delivered the previous week. 
 
@@ -137,7 +141,7 @@ We usually like to hold demos right before we begin iteration planning for the w
 
 Doing demos and shipping functionality each week also grants the ability to immediately begin testing and validating features before the entire product is "done done." Getting users involved early and shipping often is the best way to ensure that the vision of the product aligns with the actual need it's trying to address within the given market. 
 
-### Monthly Retros
+#### Monthly Retros
 **Highlights**
 > The goal is to imrpove our process as a team.  We do this by identifying things we liked as well as point points we experienced. We then extrapolate out problems that need solutions, brainstorm possible approaches to solving the problem, then ending the meeting by identifying a few actionable steps we can take the following week to test whether or not they move the need in solving our identified problems. 
 

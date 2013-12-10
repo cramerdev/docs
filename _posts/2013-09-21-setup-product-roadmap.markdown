@@ -5,7 +5,11 @@ tags: main
 category: Setup
 ---
 
-Product roadmaps are not the easiest thing to pin down, especially in the early stages of a product lifecycle. Thankfully, the planning phase yielded some valuable artifacts for driving the product roadmap. Our exact process must vary to a certain degree depending on the product, market, and unique stakeholder needs, but we follow a few general best practices:
+## Objective 
+Product roadmaps are not the easiest thing to pin down, especially in the early stages of a product lifecycle. Thankfully, the planning phase yielded some valuable artifacts for driving the product roadmap. 
+
+## Principles
+Our exact process must vary to a certain degree depending on the product, market, and unique stakeholder needs, but we follow a few general best practices:
 
 1. Roadmap planning can only happen once the appropriate activities and artifacts were completed during the planning phase. 
 2. The initial version of the roadmap is drafted during the first release planning meeting. As such, the entire team is present and actively involved in driving the discussion and creation of goals. 

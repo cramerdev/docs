@@ -7,7 +7,7 @@ title: Welcome To Waypoints
 
 
 ## Purpose
-Good products are the culmination of hundreds of good decisions. Waypoints is a collection of best practices that encompasses perspective from key crafts - product management, design, and engineering - to help you make good decisions at every point during the product development lifecycle. There are many alternative approaches out there, but the best practices captured in Waypoints represents the intentional choices we make as a team to be consistently successful at delivering high quality, valuable products to real people. 
+Good products are the culmination of hundreds of good decisions. Waypoints is a collection of best practices that encompasses perspective from key crafts - product management, design, and engineering - to help you make good decisions at every point along the journey of creating exceptional products. There are many alternative paths out there, but the best practices captured in Waypoints represents the intentional choices we make as a team to be consistently successful at delivering high quality, valuable products to real people. 
 
 This living guide changes as we grow and learn as a team, a company, and a community. It can serve as a resource for anyone who wants to learn more about how [Cramer Dev](http://cramerdev.com) approaches product development, but the primary goal is to create a broader open community around learning, discussing, developing, and implementing best practices for building high quality, interactive products. 
 
