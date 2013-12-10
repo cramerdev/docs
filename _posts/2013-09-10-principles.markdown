@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Vision
+title: Our Mission & Values
 ---
 
-The vision for Cramer Dev and the core values that we adopt as a company provide us the framework and latitude to act autonomously in our quest to deliver exceptional value to our clients and the people who use our products. We have a clearly defined purpose for doing what we do, and we have core values that outline the attitude through which we work towards accomplishing the vision. 
+Cramer Dev's mission and the core values that we embrace as a company provide us the framework and latitude to act autonomously in our quest to deliver exceptional value to each other, our clients, and the people who use our products. We have a clearly defined mission that drives what we do, and we have core values that outline the attitude through which we work towards accomplishing that mission. 
 
-## Purpose
+## Our Mission
 
 Cramer Dev is a collection of designers, artists, and engineers who are masters of the craft of utilizing web and internet technology to build and scale innovative and transformative businesses. The true purpose of any good and reputable business is to deliver real value to customers. In a very real sense this means that building successful businesses means helping to make people's lives better. Cramer Dev strives to find opportunities to be compassionate toward customers and users of the products we build by creating superior experiences and products that enrich people's lives. 
 
