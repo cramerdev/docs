@@ -1,24 +1,76 @@
 body {
   color: $body-text;
-  font-family: 'Open Sans', sans-serif; /* 300,400italic,400,700 */
+  font-family: $sans-serif-font;
   font-size: 16px;
-  font-weight: 400;  
+  font-weight: 400; 
 }
 
+p, li {
+  font-size: 1em;
+  line-height: 1.5em; // vertical rhythmic unit is 20px
+  margin-bottom: 1.5em; // browser defaults to 1em on top and bottom
+  margin-top: 1.5em;
+}
+
+blockquote p {
+  margin-top: 0;
+}
+
+li {
+  margin-bottom: .75em;
+  margin-top: .75em;
+}
+
+a, a:visited { color: $blue-light; }
+a:hover, a:focus, a:active { color: $blue; }
+
+
+// HEADINGS
+
 h1, h2, h3, h4, h5, h6 {
-  color: #444;
-  font-family: 'Asap', sans-serif; /* 400italic,400,700 */
-  font-weight: 700;  
+  color: $primary;
+  font-family: $serif-font;
+  font-weight: 400;  
+  
+  .nav &, .nav-accordion & {
+    font-family: $sans-serif-font;   
+  }
 }
 
 h1 {
-  color: $blue-light;
-  font-family: 'Nothing You Could Do', serif; /* 400 */
-  font-size: 4.2em;
+  border-bottom: 1px solid $blue-medium;
+  color: darken($blue-light,15);
+  font-family: $sans-serif-font;
+  font-size: 2.125em; // 36px
+  font-weight: 100;
+  line-height: .70588235em; // 24 / 34
+  padding-bottom: .70588235em;
+  
+  .page-head & {
+    margin-top: 0;
+  }
+}
+
+h2 {
+  font-size: 1.75em; // 28px
+  line-height: .857142em; // 24 / 28  
+  margin-bottom: .714284em;
+  margin-top: 1em;  
 }
 
 h3 {
+  font-size: 1.50em; // 24px
   font-weight: 700;
+  line-height: 1em; // 24 / 24
+  margin-bottom: .8em; // sum to 2em (even would be 1 top, 1 bottom)
+  margin-top: 1.2em;  
+}
+
+h4 {
+  font-size: 1.125em; // 20px
+  line-height: 1.2em; // 24 / 20
+  margin-bottom: 1.2em;
+  margin-top: 1.2em;  
 }
 
 body.full p {
@@ -34,24 +86,52 @@ header {
 }
 
 .nav li {
-  font-size: 1.2em;
+  
+  &.active a h2 {
+    color: $white;
+  } 
 }
 
+.head-vertical h3 {
+  color: $blue-light;
+  font-size: .875em; // 16px
+  line-height: 1.75em; // 24 / 20
+  margin-bottom: 1.75em;
+  margin-top: 1.75em;    
+}
+
+.nav, .nav-accordion {
+  h3, h4 {
+    font-weight: 300;
+  }
+}
+
+.nav-accordion {
+  
+  h3 {
+    color: lighten($primary,20);
+  }
+
+  li a, h3, h4 {
+    color: $blue-light;
+    text-decoration: none;
+    
+    &:hover {
+      color: $white;
+    }
+  }  
+  
+  li.active h3, .parent li.active h4 {
+    color: $white;
+  }
+  
+} 
+
 footer {
-  color: lighten($gray,10%);
+  color: lighten($blue-light,15);
   font-size: .85em;
 }
 
-p {
-  font-size: 1.2em;
-  letter-spacing: normal;
-  line-height: 1.6em;
-  margin-bottom: 1.4em;
-}
-
-blockquote p {
-  line-height: 1.6em;
-}
 
 .toc li {
   border-left: 1px solid darken($white,10);

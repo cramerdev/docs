@@ -1,12 +1,20 @@
 /* Colors */
 
-$gray: #424242;
-$red: #C3554B;
-$blue-light: #8CC2D9;
-$purple-light: #EBD5F1;
-$white: #FCFBF7;
-$blue: #2C3E50;
+$blue: #2e4153;
 $blue-dark: #0D1F26;
+$blue-light: darken(#8CC2D9,11);
+$blue-medium: darken($blue-light,15);
 
-$body-text: $blue-dark;
+$gray: #424242;
+$purple-light: #EBD5F1;
+$red: #C3554B;
+$white: #FCFBF7;
+
+
+/* Branding */
 $primary: $blue;
+
+/* Typography */
+$body-text: $blue-dark;
+$sans-serif-font: 'Open Sans', sans-serif; // 300,400italic,400,700
+$serif-font: 'Domine', serif; // 400,700
