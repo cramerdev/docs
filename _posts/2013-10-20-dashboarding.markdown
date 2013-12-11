@@ -5,7 +5,11 @@ tags: main
 category: Analyze
 ---
 
-Comprehensive business intelligence data visualized effectively is the crux of making good decisions on the fly and ultimately iterating to success. Having a combination of system, user, and support data on a dashboard provides invaluable insights. Things we like to track on product dashboards:
+## Objective
+Comprehensive business intelligence data visualized effectively is the crux of making good decisions on the fly and ultimately iterating to success. Having a combination of system, user, and support data on a dashboard provides invaluable insights. 
+
+## Principles
+Things we like to track on product dashboards:
 
 1. Product KPIs - These are usually user events and behavior funnels. 
 2. Business KPIs - Things like revenue, retention, and costs. 
@@ -13,6 +17,8 @@ Comprehensive business intelligence data visualized effectively is the crux of m
 4. Customer Relationship KPIs - Support requests, support response times, etc. 
 5. Product Team KPIs - Velocity, active stories, open pull requests, etc.
 
+
+## Tools & Services
 While there are a ton of absolutely wonderful and viable tools on the market, we usually use a mix of the following tools depending on the given situation and needs:
 
 1. [Mixpanel](https://mixpanel.com/) - An absolutely wonderful multi-platform analytics, identity management, and event tracking tool for consumer facing applications. It has powerful data segmenting capabilities, but the integration notifications functionality is the icing on the cake. 
