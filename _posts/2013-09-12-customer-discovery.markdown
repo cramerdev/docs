@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Plan - Customer Discovery
+title: Customer Discovery
 tags: main
 category: Plan
 ---
