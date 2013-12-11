@@ -5,39 +5,28 @@ html, body {
   height: 100%;
 }
 
-body {
-  background: lighten($primary,11);
-  position: relative;  
-}
-
 /** Layout **/
 
 body > .row {
   margin-right: 0;
+  position: relative;
+}
+
+.head-vertical {
+  background: $primary url(/assets/images/bg_harbor.jpg) center bottom no-repeat;
+  @include background-size(cover);
+  @include box-shadow(inset rgba(0,0,0,1) -2px 0 3px -2px);
+  position: relative;
 }
 
 .main {
-  padding: 2em 1em;
+  padding: 2em;
   position: relative;  
-
-  section {
-    background-color: darken($white,2%);
-    border-radius: 2px;
-    border-top: 1px solid $white;
-    @include box-shadow(0 0 7px rgba(0,0,0, .40));
-    max-width: 900px;  
-    min-height: 640px;  
-    padding: 2em;
-  }
 
   p {
     max-width: 750px;
   }
   
-}
-
-section h1 {
-  display: block;
 }
 
 .index {
@@ -77,7 +66,7 @@ section h1 {
   }
   
   .main {
-    margin-left: 24%;
+    margin-left: 33.33333333333333%;
   }
 
 }
@@ -144,56 +133,41 @@ body.full {
 
 /** Header Styles **/
 
+header {
+  padding-bottom: 1em;
+}
+
 header .top {
-  margin: 0 0 1em 0;
-  padding: 2.5em 0 0;
-  text-align: center;
+  margin: 0 0 20px 0;
+  padding: 2em 0;
+}
+
+/** Footer Styles **/
+
+footer {
+  border-top: 1px solid lighten($gray,10%);
+  margin-top: 4em;
+  padding: 1.4em 0;
   
-  h2 {
-    color: $white;
-    margin-bottom: 0;
-  }
-  
-  a:hover {
-    text-decoration: none;
-  }
-  
-  p {
-    color: lighten($primary,40);
-    font-style: italic;
-    margin-top: 1em;
-  }
-  img {
-    margin-left: 0.4em;
+  ul {
+    margin: 0;
+    padding: 0;
+    
+    li {
+      display: inline-block;
+      float: left;
+      margin-right: 2em;
+    }
   }
 }
 
-.head-vertical h3 {
-  display: inline;
-}
-
-.head-vertical span.illy {
-  display: none;
-}
-
-/** Nav Styles **/
-[class*="icon-"] {
-  color: $blue-light;
-}
-
-.nav li {
-  margin: 0.2em 0;
-}
-.nav > li > a {
-  padding: .2em 1em;
-}
-
+/** Content Styles **/
 .nav > li > a:hover,
 .nav > li > a:focus {
-  background-color: lighten($primary,8);
+  background-color: lighten($primary,1%);
 
   [class*="icon-"] {
-    color: $white;
+    color: #7CAABF;
   }
 }
 
@@ -201,55 +175,26 @@ header .top {
   background-color: darken($primary,4%);  
 }
 
-ul.nav-accordion {
-  background: darken($primary,2);
-  border-radius: 3px;
-  margin-top: 1em;
-  padding-left: 0;
-  
-  li {
-    font-size: .85em;
-    list-style: none;
-  }
-  
-  li.parent {
-    margin: 0;
-    
-    h3 {
-      background-color: lighten($primary,2);
-      box-shadow: 0 1px 0 rgba(0,0,0, 0.05);
-      display: block;
-      margin: 0;
-      padding: 1.2em;
-      text-transform: uppercase;         
-    }
-    
-    &:first-child h3 {
-      border-radius: 3px 3px 0 0;      
-    }
-    
-    &:last-child h3 {
-      border-radius: 0 0 3px 3px;      
-    }     
-  }
-  
-  ul {
-    display: none;
-    margin: 0;
-    padding: 0 0 0.2em;
-    
-    li {
-      padding-left: 2.3em;
-      padding-right: 1em;          
-    }
-  }
-  
-  li.active > ul {
-    display: block;
-  }
+.head-vertical h2 {
+  color: $blue-light;
+  display: inline;
+  font-size: 1em;
+  font-weight: 300;
 }
 
-/** Table of Content Styles (toc) **/
+.head-vertical span.illy {
+  display: none;
+}
+
+/** Content Styles **/
+
+a, a:visited { color: $blue-light; }
+
+.page-head {
+  margin-top: -2em;
+  text-align: center;
+}
+
 .toc {
   display: inline-block;
   margin-bottom: 2em;
@@ -274,43 +219,4 @@ ul.nav-accordion {
 
 .excerpts > div {
   margin-bottom: 3em;
-}
-
-
-// Pagination
-
-.pagination {
-  border-radius: 0;
-  border-top: 1px solid $blue-medium;
-  display: block;
-  margin: 1em 0 0;
-  padding-top: 1em;
-  width: 100%;
-}
-
-.prev {
-  float: left;
-}
-
-.next {
-  float: right;
-}
-
-/** Footer Styles **/
-
-footer {
-  border-top: 1px solid $primary;
-  margin-top: 4em;
-  padding: 1.4em 0;
-  
-  ul {
-    margin: 0;
-    padding: 0;
-    
-    li {
-      display: inline-block;
-      float: left;
-      margin-right: 2em;
-    }
-  }
 }
