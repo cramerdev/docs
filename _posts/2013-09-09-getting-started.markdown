@@ -2,6 +2,7 @@
 layout: page
 title: Welcome To Waypoints
 ---
+
 > "Excellence is never an accident. It is always the result of high intention, sincere effort, and intelligent execution; it represents the wise choice of many alternatives - choice, not chance, determines your destiny." *- Aristotle*
 
 
@@ -20,6 +21,6 @@ Waypoints is organized into 5 primary sections that embodies the repeatable iter
 
 Each section has several best practices the correlate to the phase your product is in. Best practices are organized by their objective, principles we follow, services and tools we use, our process, and additional learning resources. 
 
-We welcome your involvement and feedback. You can participate by starting a discussion on the [GitHub repo](https://github.com/cramerdev/docs), forking the project and making changes, or emailing us at _waypoints [at] cramerdev.com_.
+We welcome your involvement and feedback. You can participate by starting a discussion on the [GitHub Repo's Issues](https://github.com/cramerdev/waypoints/issues), forking the project and making changes, or emailing us at _waypoints [at] cramerdev.com_.
 
 Waypoints is free and licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.<br /><a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/3.0/88x31.png" /></a>

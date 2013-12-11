@@ -1,11 +1,13 @@
 ---
 layout: page
-title: Vision
+title: About Cramer Dev
 ---
 
-The vision for Cramer Dev and the core values that we adopt as a company provide us the framework and latitude to act autonomously in our quest to deliver exceptional value to our clients and the people who use our products. We have a clearly defined purpose for doing what we do, and we have core values that outline the attitude through which we work towards accomplishing the vision. 
+[Cramer Dev](http://cramerdev.com/about/) is a distributed design and application development company focused on serving a wide range of needs from helping startups launch their MVP to scaling and optimizing existing applications. We are regularly involved in all aspects of product development and specialize in building amazing interactive products across a number of different mediums and technologies. 
 
-## Purpose
+Our mission and the core values we embrace as a company provide us the framework and latitude to act autonomously in our quest to deliver exceptional value to each other, our clients, and the people who use our products. We have a clearly defined mission that drives what we do, and we have core values that outline the lens through which we practice our crafts on a daily basis. 
+
+## Our Mission
 
 Cramer Dev is a collection of designers, artists, and engineers who are masters of the craft of utilizing web and internet technology to build and scale innovative and transformative businesses. The true purpose of any good and reputable business is to deliver real value to customers. In a very real sense this means that building successful businesses means helping to make people's lives better. Cramer Dev strives to find opportunities to be compassionate toward customers and users of the products we build by creating superior experiences and products that enrich people's lives. 
 
@@ -58,18 +60,3 @@ We seek to structure our business relationships so that our clients are served i
 
 ###Be Passionate and Work Hard
 > Part of the human experience is caring deeply about our work. We do our best work when we are most passionate about what we're doing. But life is short and things change fast, so we seek to stop short of becoming emotionally invested in the projects that we are fortunate enough to work on. But we always work hard and seize every opportunity we are given.
-
-## Mindset
-
-### Product Development
-Here at Cramer Dev, we whole heartedly believe that the most effective way to build interactive products hinges on two key principles:
-
-1. *Be Agile* - Business needs are constantly evolving. By structuring our work deliverables in smaller chunks and shipping products more often, we have the opportunity to both deliver value to the market more quickly and also to learn and validate our assumptions sooner rather than later. If you haven't read it yet, check out the [Manifesto For Agile Software Development](http://agilemanifesto.org/) 
-2. *Run Lean* - Make assumptions, create hypothesis, develop tests, and obtain validated learning about what the market really wants. This is where we get to put on our mad scientist hat and use empirical data to ensure we are building something with the right product to market fit. If you're unfamiliar with the concept of "lean development," you can check out this [great resource from Ash Maurya](http://practicetrumpstheory.com/blog/)
-
-
-### User Experience and Design
-Sweet text here
-
-### Engineering
-Engineers are hard core
