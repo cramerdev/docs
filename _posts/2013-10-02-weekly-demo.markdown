@@ -5,9 +5,10 @@ tags: main
 category: Build
 ---
 
+## Objective
 Being agile and lean means deploying working software in smaller increments. We believe it's best to chunk stories down to a small enough size such that when the story is finished, there is something tangible that can be experienced by the end user. The weekly demo and feedback session provide the forum for the design and development teams to show off the work they completed during the previous iteration to the broader product development team and stakeholders. 
 
-## Demo & Feedback Best Practices
+## Principles
 Here are some best practices we try to follow:
 
 1. The team is responsible for getting their work to a state it can be demoed prior to the feedback meeting.  
@@ -18,7 +19,7 @@ Here are some best practices we try to follow:
 6. If the team has nothing to demo, it's time to do a retrospective and try to unpack where the blockage is in the workflow.  
 7. Feedback should be geared from the context of the end user. Assumptions should be called out and flagged for further testing and validation. 
 
-## Tools We Like For This Sort Of Thing...
+## Services & Tools
 
 1. [Join.me](https://join.me/) - Free group screen sharing. 
 2. [Reflector](http://www.airsquirrels.com/reflector/) - Easily project your iPhone or iPad screen onto your desktop for screen sharing sessions. 

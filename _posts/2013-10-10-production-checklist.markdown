@@ -1,11 +1,14 @@
 ---
 layout: page
-title: Product Checklist
+title: Production Checklist
 tags: main
 category: Launch
 ---
 
-A checklist should totally go here. 
+## Objective
+We should add a clear objective for our philosophy behind "production ready" applications. 
+
+## Principles
 
 1. Does it deploy. 
 2. Does it run. 
