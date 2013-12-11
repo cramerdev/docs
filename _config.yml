@@ -1,4 +1,4 @@
-name: Docs
+name: Waypoints
 pygments: true
-permalink: /:title
+permalink: /:categories/:title
 markdown: redcarpet
