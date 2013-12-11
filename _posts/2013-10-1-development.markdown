@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Development
-<<<<<<< HEAD
+category: Build
 ---
 
-## Mindset
+## Principles
 
 Principles drive Practices which drive Tools. Our Principles borrow from those behind the Agile Manifesto, and include various bits of wisdom from the industry:
 
@@ -61,14 +61,3 @@ As stated above, we take measurements so that we can make informed decisions. A 
 
 Our periodic retrospectives serve to improve our work habits, and our development process is no exception. This is our opportunity to tailor our approach to a given project, and to emphasize which parts of our approach that are working particularly well.
 
-=======
-category: Build
----
-
-
-## Objective
-
-## Principles
-
-## Our Process 
->>>>>>> gh-pages
