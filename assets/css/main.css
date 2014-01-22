@@ -189,6 +189,16 @@ body {
   position: relative;
 }
 
+/** GitHub Fork Me Banner **/
+.fork-me-banner {
+  float: right;
+  width: 149px;
+  height: 149px;
+  position: absolute;
+  right: 0px;
+  z-index: 2;
+}
+
 /** Layout **/
 body > .row {
   margin-right: 0;
